@@ -1,0 +1,4069 @@
+BEGIN ACT #1
+	<RESULTS> = <SCORED>
+END ACT
+/*
+BEGIN ACT #5
+//65-day rule_3844
+<SET_5> = SET(65-day rule_3844
+<SET_6> = SET(Parent1)
+<SET_7> = SET(Parent2)
+
+IF NOT EMPTY(<SET_5) AND 
+IF NOT EMPTY(<SET_6>)  AND 
+IF NOT EMPTY(<SET_7>)
+THEN
+	TRANSFORM(65-day rule_3844, {Parent1, Parent2, 65-day rule_3844})
+	INSERT(<RESULTS>, 65-day rule_3844)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, 65-day rule_3844)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #10
+//Accumulation distributions_3845
+<SET_10> = SET(Accumulation distributions_3845
+<SET_11> = SET(Parent1)
+<SET_12> = SET(Parent2)
+
+IF NOT EMPTY(<SET_10) AND 
+IF NOT EMPTY(<SET_11>)  AND 
+IF NOT EMPTY(<SET_12>)
+THEN
+	TRANSFORM(Accumulation distributions_3845, {Parent1, Parent2, Accumulation distributions_3845})
+	INSERT(<RESULTS>, Accumulation distributions_3845)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Accumulation distributions_3845)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #15
+//Adequate disclosure of gifts_3847
+<SET_15> = SET(Adequate disclosure of gifts_3847
+<SET_16> = SET(Parent1)
+<SET_17> = SET(Parent2)
+
+IF NOT EMPTY(<SET_15) AND 
+IF NOT EMPTY(<SET_16>)  AND 
+IF NOT EMPTY(<SET_17>)
+THEN
+	TRANSFORM(Adequate disclosure of gifts_3847, {Parent1, Parent2, Adequate disclosure of gifts_3847})
+	INSERT(<RESULTS>, Adequate disclosure of gifts_3847)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Adequate disclosure of gifts_3847)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #20
+//Adjusted taxable gifts_3848
+<SET_20> = SET(Adjusted taxable gifts_3848
+<SET_21> = SET(Parent1)
+<SET_22> = SET(Parent2)
+
+IF NOT EMPTY(<SET_20) AND 
+IF NOT EMPTY(<SET_21>)  AND 
+IF NOT EMPTY(<SET_22>)
+THEN
+	TRANSFORM(Adjusted taxable gifts_3848, {Parent1, Parent2, Adjusted taxable gifts_3848})
+	INSERT(<RESULTS>, Adjusted taxable gifts_3848)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Adjusted taxable gifts_3848)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #25
+//Administration expenses of trusts and estates_3850
+<SET_25> = SET(Administration expenses of trusts and estates_3850
+<SET_26> = SET(Parent1)
+<SET_27> = SET(Parent2)
+
+IF NOT EMPTY(<SET_25) AND 
+IF NOT EMPTY(<SET_26>)  AND 
+IF NOT EMPTY(<SET_27>)
+THEN
+	TRANSFORM(Administration expenses of trusts and estates_3850, {Parent1, Parent2, Administration expenses of trusts and estates_3850})
+	INSERT(<RESULTS>, Administration expenses of trusts and estates_3850)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Administration expenses of trusts and estates_3850)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #30
+//Administration_3849
+<SET_30> = SET(Administration_3849
+<SET_31> = SET(Parent1)
+<SET_32> = SET(Parent2)
+
+IF NOT EMPTY(<SET_30) AND 
+IF NOT EMPTY(<SET_31>)  AND 
+IF NOT EMPTY(<SET_32>)
+THEN
+	TRANSFORM(Administration_3849, {Parent1, Parent2, Administration_3849})
+	INSERT(<RESULTS>, Administration_3849)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Administration_3849)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #35
+//Administrative powers_3851
+<SET_35> = SET(Administrative powers_3851
+<SET_36> = SET(Parent1)
+<SET_37> = SET(Parent2)
+
+IF NOT EMPTY(<SET_35) AND 
+IF NOT EMPTY(<SET_36>)  AND 
+IF NOT EMPTY(<SET_37>)
+THEN
+	TRANSFORM(Administrative powers_3851, {Parent1, Parent2, Administrative powers_3851})
+	INSERT(<RESULTS>, Administrative powers_3851)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Administrative powers_3851)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #40
+//Aggregation (estate)_3852
+<SET_40> = SET(Aggregation (estate)_3852
+<SET_41> = SET(Parent1)
+<SET_42> = SET(Parent2)
+
+IF NOT EMPTY(<SET_40) AND 
+IF NOT EMPTY(<SET_41>)  AND 
+IF NOT EMPTY(<SET_42>)
+THEN
+	TRANSFORM(Aggregation (estate)_3852, {Parent1, Parent2, Aggregation (estate)_3852})
+	INSERT(<RESULTS>, Aggregation (estate)_3852)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Aggregation (estate)_3852)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #45
+//Alaska Native Settlement Trusts_3853
+<SET_45> = SET(Alaska Native Settlement Trusts_3853
+<SET_46> = SET(Parent1)
+<SET_47> = SET(Parent2)
+
+IF NOT EMPTY(<SET_45) AND 
+IF NOT EMPTY(<SET_46>)  AND 
+IF NOT EMPTY(<SET_47>)
+THEN
+	TRANSFORM(Alaska Native Settlement Trusts_3853, {Parent1, Parent2, Alaska Native Settlement Trusts_3853})
+	INSERT(<RESULTS>, Alaska Native Settlement Trusts_3853)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Alaska Native Settlement Trusts_3853)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #50
+//Alimony trusts_3854
+<SET_50> = SET(Alimony trusts_3854
+<SET_51> = SET(Parent1)
+<SET_52> = SET(Parent2)
+
+IF NOT EMPTY(<SET_50) AND 
+IF NOT EMPTY(<SET_51>)  AND 
+IF NOT EMPTY(<SET_52>)
+THEN
+	TRANSFORM(Alimony trusts_3854, {Parent1, Parent2, Alimony trusts_3854})
+	INSERT(<RESULTS>, Alimony trusts_3854)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Alimony trusts_3854)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #55
+//Alternate valuation date_3856
+<SET_55> = SET(Alternate valuation date_3856
+<SET_56> = SET(Parent1)
+<SET_57> = SET(Parent2)
+
+IF NOT EMPTY(<SET_55) AND 
+IF NOT EMPTY(<SET_56>)  AND 
+IF NOT EMPTY(<SET_57>)
+THEN
+	TRANSFORM(Alternate valuation date_3856, {Parent1, Parent2, Alternate valuation date_3856})
+	INSERT(<RESULTS>, Alternate valuation date_3856)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Alternate valuation date_3856)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #60
+//Alternative minimum tax for trusts and estates_3857
+<SET_60> = SET(Alternative minimum tax for trusts and estates_3857
+<SET_61> = SET(Parent1)
+<SET_62> = SET(Parent2)
+
+IF NOT EMPTY(<SET_60) AND 
+IF NOT EMPTY(<SET_61>)  AND 
+IF NOT EMPTY(<SET_62>)
+THEN
+	TRANSFORM(Alternative minimum tax for trusts and estates_3857, {Parent1, Parent2, Alternative minimum tax for trusts and estates_3857})
+	INSERT(<RESULTS>, Alternative minimum tax for trusts and estates_3857)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Alternative minimum tax for trusts and estates_3857)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #65
+//Amortization for  trusts and estates_3858
+<SET_65> = SET(Amortization for  trusts and estates_3858
+<SET_66> = SET(Parent1)
+<SET_67> = SET(Parent2)
+
+IF NOT EMPTY(<SET_65) AND 
+IF NOT EMPTY(<SET_66>)  AND 
+IF NOT EMPTY(<SET_67>)
+THEN
+	TRANSFORM(Amortization for  trusts and estates_3858, {Parent1, Parent2, Amortization for  trusts and estates_3858})
+	INSERT(<RESULTS>, Amortization for  trusts and estates_3858)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Amortization for  trusts and estates_3858)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #70
+//Annuities (estates)_3860
+<SET_70> = SET(Annuities (estates)_3860
+<SET_71> = SET(Parent1)
+<SET_72> = SET(Parent2)
+
+IF NOT EMPTY(<SET_70) AND 
+IF NOT EMPTY(<SET_71>)  AND 
+IF NOT EMPTY(<SET_72>)
+THEN
+	TRANSFORM(Annuities (estates)_3860, {Parent1, Parent2, Annuities (estates)_3860})
+	INSERT(<RESULTS>, Annuities (estates)_3860)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Annuities (estates)_3860)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #75
+//Annuities as life insurance_3861
+<SET_75> = SET(Annuities as life insurance_3861
+<SET_76> = SET(Parent1)
+<SET_77> = SET(Parent2)
+
+IF NOT EMPTY(<SET_75) AND 
+IF NOT EMPTY(<SET_76>)  AND 
+IF NOT EMPTY(<SET_77>)
+THEN
+	TRANSFORM(Annuities as life insurance_3861, {Parent1, Parent2, Annuities as life insurance_3861})
+	INSERT(<RESULTS>, Annuities as life insurance_3861)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Annuities as life insurance_3861)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #80
+//Annuities paid to estates_3862
+<SET_80> = SET(Annuities paid to estates_3862
+<SET_81> = SET(Parent1)
+<SET_82> = SET(Parent2)
+
+IF NOT EMPTY(<SET_80) AND 
+IF NOT EMPTY(<SET_81>)  AND 
+IF NOT EMPTY(<SET_82>)
+THEN
+	TRANSFORM(Annuities paid to estates_3862, {Parent1, Parent2, Annuities paid to estates_3862})
+	INSERT(<RESULTS>, Annuities paid to estates_3862)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Annuities paid to estates_3862)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #85
+//Applicability of throwback rules_3863
+<SET_85> = SET(Applicability of throwback rules_3863
+<SET_86> = SET(Parent1)
+<SET_87> = SET(Parent2)
+
+IF NOT EMPTY(<SET_85) AND 
+IF NOT EMPTY(<SET_86>)  AND 
+IF NOT EMPTY(<SET_87>)
+THEN
+	TRANSFORM(Applicability of throwback rules_3863, {Parent1, Parent2, Applicability of throwback rules_3863})
+	INSERT(<RESULTS>, Applicability of throwback rules_3863)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Applicability of throwback rules_3863)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #90
+//Appraisals of gifts_3865
+<SET_90> = SET(Appraisals of gifts_3865
+<SET_91> = SET(Parent1)
+<SET_92> = SET(Parent2)
+
+IF NOT EMPTY(<SET_90) AND 
+IF NOT EMPTY(<SET_91>)  AND 
+IF NOT EMPTY(<SET_92>)
+THEN
+	TRANSFORM(Appraisals of gifts_3865, {Parent1, Parent2, Appraisals of gifts_3865})
+	INSERT(<RESULTS>, Appraisals of gifts_3865)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Appraisals of gifts_3865)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #95
+//Asset protection trusts_3868
+<SET_95> = SET(Asset protection trusts_3868
+<SET_96> = SET(Parent1)
+<SET_97> = SET(Parent2)
+
+IF NOT EMPTY(<SET_95) AND 
+IF NOT EMPTY(<SET_96>)  AND 
+IF NOT EMPTY(<SET_97>)
+THEN
+	TRANSFORM(Asset protection trusts_3868, {Parent1, Parent2, Asset protection trusts_3868})
+	INSERT(<RESULTS>, Asset protection trusts_3868)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Asset protection trusts_3868)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #100
+//Attribution (gifts)_3870
+<SET_100> = SET(Attribution (gifts)_3870
+<SET_101> = SET(Parent1)
+<SET_102> = SET(Parent2)
+
+IF NOT EMPTY(<SET_100) AND 
+IF NOT EMPTY(<SET_101>)  AND 
+IF NOT EMPTY(<SET_102>)
+THEN
+	TRANSFORM(Attribution (gifts)_3870, {Parent1, Parent2, Attribution (gifts)_3870})
+	INSERT(<RESULTS>, Attribution (gifts)_3870)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Attribution (gifts)_3870)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #105
+//Bargain sales_3871
+<SET_105> = SET(Bargain sales_3871
+<SET_106> = SET(Parent1)
+<SET_107> = SET(Parent2)
+
+IF NOT EMPTY(<SET_105) AND 
+IF NOT EMPTY(<SET_106>)  AND 
+IF NOT EMPTY(<SET_107>)
+THEN
+	TRANSFORM(Bargain sales_3871, {Parent1, Parent2, Bargain sales_3871})
+	INSERT(<RESULTS>, Bargain sales_3871)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Bargain sales_3871)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #110
+//Basis (estates)_3872
+<SET_110> = SET(Basis (estates)_3872
+<SET_111> = SET(Parent1)
+<SET_112> = SET(Parent2)
+
+IF NOT EMPTY(<SET_110) AND 
+IF NOT EMPTY(<SET_111>)  AND 
+IF NOT EMPTY(<SET_112>)
+THEN
+	TRANSFORM(Basis (estates)_3872, {Parent1, Parent2, Basis (estates)_3872})
+	INSERT(<RESULTS>, Basis (estates)_3872)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Basis (estates)_3872)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #115
+//Beneficial enjoyment_3876
+<SET_115> = SET(Beneficial enjoyment_3876
+<SET_116> = SET(Parent1)
+<SET_117> = SET(Parent2)
+
+IF NOT EMPTY(<SET_115) AND 
+IF NOT EMPTY(<SET_116>)  AND 
+IF NOT EMPTY(<SET_117>)
+THEN
+	TRANSFORM(Beneficial enjoyment_3876, {Parent1, Parent2, Beneficial enjoyment_3876})
+	INSERT(<RESULTS>, Beneficial enjoyment_3876)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Beneficial enjoyment_3876)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #120
+//Bequest to private foundations_3880
+<SET_120> = SET(Bequest to private foundations_3880
+<SET_121> = SET(Parent1)
+<SET_122> = SET(Parent2)
+
+IF NOT EMPTY(<SET_120) AND 
+IF NOT EMPTY(<SET_121>)  AND 
+IF NOT EMPTY(<SET_122>)
+THEN
+	TRANSFORM(Bequest to private foundations_3880, {Parent1, Parent2, Bequest to private foundations_3880})
+	INSERT(<RESULTS>, Bequest to private foundations_3880)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Bequest to private foundations_3880)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #125
+//Blockage (estate)_3881
+<SET_125> = SET(Blockage (estate)_3881
+<SET_126> = SET(Parent1)
+<SET_127> = SET(Parent2)
+
+IF NOT EMPTY(<SET_125) AND 
+IF NOT EMPTY(<SET_126>)  AND 
+IF NOT EMPTY(<SET_127>)
+THEN
+	TRANSFORM(Blockage (estate)_3881, {Parent1, Parent2, Blockage (estate)_3881})
+	INSERT(<RESULTS>, Blockage (estate)_3881)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Blockage (estate)_3881)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #130
+//Built-in capital gains (estate)_3882
+<SET_130> = SET(Built-in capital gains (estate)_3882
+<SET_131> = SET(Parent1)
+<SET_132> = SET(Parent2)
+
+IF NOT EMPTY(<SET_130) AND 
+IF NOT EMPTY(<SET_131>)  AND 
+IF NOT EMPTY(<SET_132>)
+THEN
+	TRANSFORM(Built-in capital gains (estate)_3882, {Parent1, Parent2, Built-in capital gains (estate)_3882})
+	INSERT(<RESULTS>, Built-in capital gains (estate)_3882)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Built-in capital gains (estate)_3882)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #135
+//Business interest transfers (gifts)_3883
+<SET_135> = SET(Business interest transfers (gifts)_3883
+<SET_136> = SET(Parent1)
+<SET_137> = SET(Parent2)
+
+IF NOT EMPTY(<SET_135) AND 
+IF NOT EMPTY(<SET_136>)  AND 
+IF NOT EMPTY(<SET_137>)
+THEN
+	TRANSFORM(Business interest transfers (gifts)_3883, {Parent1, Parent2, Business interest transfers (gifts)_3883})
+	INSERT(<RESULTS>, Business interest transfers (gifts)_3883)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Business interest transfers (gifts)_3883)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #140
+//Business trusts_3884
+<SET_140> = SET(Business trusts_3884
+<SET_141> = SET(Parent1)
+<SET_142> = SET(Parent2)
+
+IF NOT EMPTY(<SET_140) AND 
+IF NOT EMPTY(<SET_141>)  AND 
+IF NOT EMPTY(<SET_142>)
+THEN
+	TRANSFORM(Business trusts_3884, {Parent1, Parent2, Business trusts_3884})
+	INSERT(<RESULTS>, Business trusts_3884)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Business trusts_3884)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #145
+//Capital gains of  trusts and estates_3887
+<SET_145> = SET(Capital gains of  trusts and estates_3887
+<SET_146> = SET(Parent1)
+<SET_147> = SET(Parent2)
+
+IF NOT EMPTY(<SET_145) AND 
+IF NOT EMPTY(<SET_146>)  AND 
+IF NOT EMPTY(<SET_147>)
+THEN
+	TRANSFORM(Capital gains of  trusts and estates_3887, {Parent1, Parent2, Capital gains of  trusts and estates_3887})
+	INSERT(<RESULTS>, Capital gains of  trusts and estates_3887)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Capital gains of  trusts and estates_3887)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #150
+//Casualty and theft loss deductions_3888
+<SET_150> = SET(Casualty and theft loss deductions_3888
+<SET_151> = SET(Parent1)
+<SET_152> = SET(Parent2)
+
+IF NOT EMPTY(<SET_150) AND 
+IF NOT EMPTY(<SET_151>)  AND 
+IF NOT EMPTY(<SET_152>)
+THEN
+	TRANSFORM(Casualty and theft loss deductions_3888, {Parent1, Parent2, Casualty and theft loss deductions_3888})
+	INSERT(<RESULTS>, Casualty and theft loss deductions_3888)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Casualty and theft loss deductions_3888)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #155
+//Cemetery perpetual care trusts_3889
+<SET_155> = SET(Cemetery perpetual care trusts_3889
+<SET_156> = SET(Parent1)
+<SET_157> = SET(Parent2)
+
+IF NOT EMPTY(<SET_155) AND 
+IF NOT EMPTY(<SET_156>)  AND 
+IF NOT EMPTY(<SET_157>)
+THEN
+	TRANSFORM(Cemetery perpetual care trusts_3889, {Parent1, Parent2, Cemetery perpetual care trusts_3889})
+	INSERT(<RESULTS>, Cemetery perpetual care trusts_3889)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Cemetery perpetual care trusts_3889)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #160
+//Charitable contribution deductions_3890
+<SET_160> = SET(Charitable contribution deductions_3890
+<SET_161> = SET(Parent1)
+<SET_162> = SET(Parent2)
+
+IF NOT EMPTY(<SET_160) AND 
+IF NOT EMPTY(<SET_161>)  AND 
+IF NOT EMPTY(<SET_162>)
+THEN
+	TRANSFORM(Charitable contribution deductions_3890, {Parent1, Parent2, Charitable contribution deductions_3890})
+	INSERT(<RESULTS>, Charitable contribution deductions_3890)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Charitable contribution deductions_3890)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #165
+//Charitable lead annuity trusts (CLATs)_3893
+<SET_165> = SET(Charitable lead annuity trusts (CLATs)_3893
+<SET_166> = SET(Parent1)
+<SET_167> = SET(Parent2)
+
+IF NOT EMPTY(<SET_165) AND 
+IF NOT EMPTY(<SET_166>)  AND 
+IF NOT EMPTY(<SET_167>)
+THEN
+	TRANSFORM(Charitable lead annuity trusts (CLATs)_3893, {Parent1, Parent2, Charitable lead annuity trusts (CLATs)_3893})
+	INSERT(<RESULTS>, Charitable lead annuity trusts (CLATs)_3893)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Charitable lead annuity trusts (CLATs)_3893)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #170
+//Charitable lead unitrusts (CLUTs)_3895
+<SET_170> = SET(Charitable lead unitrusts (CLUTs)_3895
+<SET_171> = SET(Parent1)
+<SET_172> = SET(Parent2)
+
+IF NOT EMPTY(<SET_170) AND 
+IF NOT EMPTY(<SET_171>)  AND 
+IF NOT EMPTY(<SET_172>)
+THEN
+	TRANSFORM(Charitable lead unitrusts (CLUTs)_3895, {Parent1, Parent2, Charitable lead unitrusts (CLUTs)_3895})
+	INSERT(<RESULTS>, Charitable lead unitrusts (CLUTs)_3895)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Charitable lead unitrusts (CLUTs)_3895)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #175
+//Charitable remainder annuity trusts (CRATs)_3896
+<SET_175> = SET(Charitable remainder annuity trusts (CRATs)_3896
+<SET_176> = SET(Parent1)
+<SET_177> = SET(Parent2)
+
+IF NOT EMPTY(<SET_175) AND 
+IF NOT EMPTY(<SET_176>)  AND 
+IF NOT EMPTY(<SET_177>)
+THEN
+	TRANSFORM(Charitable remainder annuity trusts (CRATs)_3896, {Parent1, Parent2, Charitable remainder annuity trusts (CRATs)_3896})
+	INSERT(<RESULTS>, Charitable remainder annuity trusts (CRATs)_3896)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Charitable remainder annuity trusts (CRATs)_3896)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #180
+//Charitable remainder unitrusts (CRUTs)_3898
+<SET_180> = SET(Charitable remainder unitrusts (CRUTs)_3898
+<SET_181> = SET(Parent1)
+<SET_182> = SET(Parent2)
+
+IF NOT EMPTY(<SET_180) AND 
+IF NOT EMPTY(<SET_181>)  AND 
+IF NOT EMPTY(<SET_182>)
+THEN
+	TRANSFORM(Charitable remainder unitrusts (CRUTs)_3898, {Parent1, Parent2, Charitable remainder unitrusts (CRUTs)_3898})
+	INSERT(<RESULTS>, Charitable remainder unitrusts (CRUTs)_3898)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Charitable remainder unitrusts (CRUTs)_3898)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #185
+//Citizenship of owner_3901
+<SET_185> = SET(Citizenship of owner_3901
+<SET_186> = SET(Parent1)
+<SET_187> = SET(Parent2)
+
+IF NOT EMPTY(<SET_185) AND 
+IF NOT EMPTY(<SET_186>)  AND 
+IF NOT EMPTY(<SET_187>)
+THEN
+	TRANSFORM(Citizenship of owner_3901, {Parent1, Parent2, Citizenship of owner_3901})
+	INSERT(<RESULTS>, Citizenship of owner_3901)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Citizenship of owner_3901)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #190
+//Claims against estate_3902
+<SET_190> = SET(Claims against estate_3902
+<SET_191> = SET(Parent1)
+<SET_192> = SET(Parent2)
+
+IF NOT EMPTY(<SET_190) AND 
+IF NOT EMPTY(<SET_191>)  AND 
+IF NOT EMPTY(<SET_192>)
+THEN
+	TRANSFORM(Claims against estate_3902, {Parent1, Parent2, Claims against estate_3902})
+	INSERT(<RESULTS>, Claims against estate_3902)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Claims against estate_3902)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #195
+//Collectibles of estates_3904
+<SET_195> = SET(Collectibles of estates_3904
+<SET_196> = SET(Parent1)
+<SET_197> = SET(Parent2)
+
+IF NOT EMPTY(<SET_195) AND 
+IF NOT EMPTY(<SET_196>)  AND 
+IF NOT EMPTY(<SET_197>)
+THEN
+	TRANSFORM(Collectibles of estates_3904, {Parent1, Parent2, Collectibles of estates_3904})
+	INSERT(<RESULTS>, Collectibles of estates_3904)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Collectibles of estates_3904)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #200
+//Compensation for services (estates)_3906
+<SET_200> = SET(Compensation for services (estates)_3906
+<SET_201> = SET(Parent1)
+<SET_202> = SET(Parent2)
+
+IF NOT EMPTY(<SET_200) AND 
+IF NOT EMPTY(<SET_201>)  AND 
+IF NOT EMPTY(<SET_202>)
+THEN
+	TRANSFORM(Compensation for services (estates)_3906, {Parent1, Parent2, Compensation for services (estates)_3906})
+	INSERT(<RESULTS>, Compensation for services (estates)_3906)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Compensation for services (estates)_3906)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #205
+//Computation for trusts and estates_3908
+<SET_205> = SET(Computation for trusts and estates_3908
+<SET_206> = SET(Parent1)
+<SET_207> = SET(Parent2)
+
+IF NOT EMPTY(<SET_205) AND 
+IF NOT EMPTY(<SET_206>)  AND 
+IF NOT EMPTY(<SET_207>)
+THEN
+	TRANSFORM(Computation for trusts and estates_3908, {Parent1, Parent2, Computation for trusts and estates_3908})
+	INSERT(<RESULTS>, Computation for trusts and estates_3908)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Computation for trusts and estates_3908)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #210
+//Computation of tax for  trusts and estates_3909
+<SET_210> = SET(Computation of tax for  trusts and estates_3909
+<SET_211> = SET(Parent1)
+<SET_212> = SET(Parent2)
+
+IF NOT EMPTY(<SET_210) AND 
+IF NOT EMPTY(<SET_211>)  AND 
+IF NOT EMPTY(<SET_212>)
+THEN
+	TRANSFORM(Computation of tax for  trusts and estates_3909, {Parent1, Parent2, Computation of tax for  trusts and estates_3909})
+	INSERT(<RESULTS>, Computation of tax for  trusts and estates_3909)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Computation of tax for  trusts and estates_3909)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #215
+//Contributions from gross income of trusts and estates_3910
+<SET_215> = SET(Contributions from gross income of trusts and estates_3910
+<SET_216> = SET(Parent1)
+<SET_217> = SET(Parent2)
+
+IF NOT EMPTY(<SET_215) AND 
+IF NOT EMPTY(<SET_216>)  AND 
+IF NOT EMPTY(<SET_217>)
+THEN
+	TRANSFORM(Contributions from gross income of trusts and estates_3910, {Parent1, Parent2, Contributions from gross income of trusts and estates_3910})
+	INSERT(<RESULTS>, Contributions from gross income of trusts and estates_3910)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Contributions from gross income of trusts and estates_3910)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #220
+//Controlling interests (estate)_3911
+<SET_220> = SET(Controlling interests (estate)_3911
+<SET_221> = SET(Parent1)
+<SET_222> = SET(Parent2)
+
+IF NOT EMPTY(<SET_220) AND 
+IF NOT EMPTY(<SET_221>)  AND 
+IF NOT EMPTY(<SET_222>)
+THEN
+	TRANSFORM(Controlling interests (estate)_3911, {Parent1, Parent2, Controlling interests (estate)_3911})
+	INSERT(<RESULTS>, Controlling interests (estate)_3911)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Controlling interests (estate)_3911)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #225
+//Credits_3913
+<SET_225> = SET(Credits_3913
+<SET_226> = SET(Parent1)
+<SET_227> = SET(Parent2)
+
+IF NOT EMPTY(<SET_225) AND 
+IF NOT EMPTY(<SET_226>)  AND 
+IF NOT EMPTY(<SET_227>)
+THEN
+	TRANSFORM(Credits_3913, {Parent1, Parent2, Credits_3913})
+	INSERT(<RESULTS>, Credits_3913)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Credits_3913)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #230
+//Crummey powers_3914
+<SET_230> = SET(Crummey powers_3914
+<SET_231> = SET(Parent1)
+<SET_232> = SET(Parent2)
+
+IF NOT EMPTY(<SET_230) AND 
+IF NOT EMPTY(<SET_231>)  AND 
+IF NOT EMPTY(<SET_232>)
+THEN
+	TRANSFORM(Crummey powers_3914, {Parent1, Parent2, Crummey powers_3914})
+	INSERT(<RESULTS>, Crummey powers_3914)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Crummey powers_3914)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #235
+//Custodial arrangements_3915
+<SET_235> = SET(Custodial arrangements_3915
+<SET_236> = SET(Parent1)
+<SET_237> = SET(Parent2)
+
+IF NOT EMPTY(<SET_235) AND 
+IF NOT EMPTY(<SET_236>)  AND 
+IF NOT EMPTY(<SET_237>)
+THEN
+	TRANSFORM(Custodial arrangements_3915, {Parent1, Parent2, Custodial arrangements_3915})
+	INSERT(<RESULTS>, Custodial arrangements_3915)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Custodial arrangements_3915)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #240
+//Debts deduction_3916
+<SET_240> = SET(Debts deduction_3916
+<SET_241> = SET(Parent1)
+<SET_242> = SET(Parent2)
+
+IF NOT EMPTY(<SET_240) AND 
+IF NOT EMPTY(<SET_241>)  AND 
+IF NOT EMPTY(<SET_242>)
+THEN
+	TRANSFORM(Debts deduction_3916, {Parent1, Parent2, Debts deduction_3916})
+	INSERT(<RESULTS>, Debts deduction_3916)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Debts deduction_3916)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #245
+//Debts of  trusts and estates_3917
+<SET_245> = SET(Debts of  trusts and estates_3917
+<SET_246> = SET(Parent1)
+<SET_247> = SET(Parent2)
+
+IF NOT EMPTY(<SET_245) AND 
+IF NOT EMPTY(<SET_246>)  AND 
+IF NOT EMPTY(<SET_247>)
+THEN
+	TRANSFORM(Debts of  trusts and estates_3917, {Parent1, Parent2, Debts of  trusts and estates_3917})
+	INSERT(<RESULTS>, Debts of  trusts and estates_3917)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Debts of  trusts and estates_3917)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #250
+//Deduction for direct gifts_3918
+<SET_250> = SET(Deduction for direct gifts_3918
+<SET_251> = SET(Parent1)
+<SET_252> = SET(Parent2)
+
+IF NOT EMPTY(<SET_250) AND 
+IF NOT EMPTY(<SET_251>)  AND 
+IF NOT EMPTY(<SET_252>)
+THEN
+	TRANSFORM(Deduction for direct gifts_3918, {Parent1, Parent2, Deduction for direct gifts_3918})
+	INSERT(<RESULTS>, Deduction for direct gifts_3918)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Deduction for direct gifts_3918)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #255
+//Deductions (estates)_3920
+<SET_255> = SET(Deductions (estates)_3920
+<SET_256> = SET(Parent1)
+<SET_257> = SET(Parent2)
+
+IF NOT EMPTY(<SET_255) AND 
+IF NOT EMPTY(<SET_256>)  AND 
+IF NOT EMPTY(<SET_257>)
+THEN
+	TRANSFORM(Deductions (estates)_3920, {Parent1, Parent2, Deductions (estates)_3920})
+	INSERT(<RESULTS>, Deductions (estates)_3920)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Deductions (estates)_3920)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #260
+//Deductions_3919
+<SET_260> = SET(Deductions_3919
+<SET_261> = SET(Parent1)
+<SET_262> = SET(Parent2)
+
+IF NOT EMPTY(<SET_260) AND 
+IF NOT EMPTY(<SET_261>)  AND 
+IF NOT EMPTY(<SET_262>)
+THEN
+	TRANSFORM(Deductions_3919, {Parent1, Parent2, Deductions_3919})
+	INSERT(<RESULTS>, Deductions_3919)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Deductions_3919)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #265
+//Depreciation and depletion for  trusts and estates_3921
+<SET_265> = SET(Depreciation and depletion for  trusts and estates_3921
+<SET_266> = SET(Parent1)
+<SET_267> = SET(Parent2)
+
+IF NOT EMPTY(<SET_265) AND 
+IF NOT EMPTY(<SET_266>)  AND 
+IF NOT EMPTY(<SET_267>)
+THEN
+	TRANSFORM(Depreciation and depletion for  trusts and estates_3921, {Parent1, Parent2, Depreciation and depletion for  trusts and estates_3921})
+	INSERT(<RESULTS>, Depreciation and depletion for  trusts and estates_3921)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Depreciation and depletion for  trusts and estates_3921)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #270
+//Direct skips_3922
+<SET_270> = SET(Direct skips_3922
+<SET_271> = SET(Parent1)
+<SET_272> = SET(Parent2)
+
+IF NOT EMPTY(<SET_270) AND 
+IF NOT EMPTY(<SET_271>)  AND 
+IF NOT EMPTY(<SET_272>)
+THEN
+	TRANSFORM(Direct skips_3922, {Parent1, Parent2, Direct skips_3922})
+	INSERT(<RESULTS>, Direct skips_3922)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Direct skips_3922)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #275
+//Distributions subject to prior deduction_3930
+<SET_275> = SET(Distributions subject to prior deduction_3930
+<SET_276> = SET(Parent1)
+<SET_277> = SET(Parent2)
+
+IF NOT EMPTY(<SET_275) AND 
+IF NOT EMPTY(<SET_276>)  AND 
+IF NOT EMPTY(<SET_277>)
+THEN
+	TRANSFORM(Distributions subject to prior deduction_3930, {Parent1, Parent2, Distributions subject to prior deduction_3930})
+	INSERT(<RESULTS>, Distributions subject to prior deduction_3930)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Distributions subject to prior deduction_3930)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #280
+//Dividends and interest (estates)_3931
+<SET_280> = SET(Dividends and interest (estates)_3931
+<SET_281> = SET(Parent1)
+<SET_282> = SET(Parent2)
+
+IF NOT EMPTY(<SET_280) AND 
+IF NOT EMPTY(<SET_281>)  AND 
+IF NOT EMPTY(<SET_282>)
+THEN
+	TRANSFORM(Dividends and interest (estates)_3931, {Parent1, Parent2, Dividends and interest (estates)_3931})
+	INSERT(<RESULTS>, Dividends and interest (estates)_3931)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Dividends and interest (estates)_3931)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #285
+//Dower and curtesy interests_3934
+<SET_285> = SET(Dower and curtesy interests_3934
+<SET_286> = SET(Parent1)
+<SET_287> = SET(Parent2)
+
+IF NOT EMPTY(<SET_285) AND 
+IF NOT EMPTY(<SET_286>)  AND 
+IF NOT EMPTY(<SET_287>)
+THEN
+	TRANSFORM(Dower and curtesy interests_3934, {Parent1, Parent2, Dower and curtesy interests_3934})
+	INSERT(<RESULTS>, Dower and curtesy interests_3934)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Dower and curtesy interests_3934)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #290
+//Easements, conservation purposes_3935
+<SET_290> = SET(Easements, conservation purposes_3935
+<SET_291> = SET(Parent1)
+<SET_292> = SET(Parent2)
+
+IF NOT EMPTY(<SET_290) AND 
+IF NOT EMPTY(<SET_291>)  AND 
+IF NOT EMPTY(<SET_292>)
+THEN
+	TRANSFORM(Easements, conservation purposes_3935, {Parent1, Parent2, Easements, conservation purposes_3935})
+	INSERT(<RESULTS>, Easements, conservation purposes_3935)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Easements, conservation purposes_3935)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #295
+//Election (estate)_3938
+<SET_295> = SET(Election (estate)_3938
+<SET_296> = SET(Parent1)
+<SET_297> = SET(Parent2)
+
+IF NOT EMPTY(<SET_295) AND 
+IF NOT EMPTY(<SET_296>)  AND 
+IF NOT EMPTY(<SET_297>)
+THEN
+	TRANSFORM(Election (estate)_3938, {Parent1, Parent2, Election (estate)_3938})
+	INSERT(<RESULTS>, Election (estate)_3938)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Election (estate)_3938)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #300
+//Eligible recipients of charitable donations_3940
+<SET_300> = SET(Eligible recipients of charitable donations_3940
+<SET_301> = SET(Parent1)
+<SET_302> = SET(Parent2)
+
+IF NOT EMPTY(<SET_300) AND 
+IF NOT EMPTY(<SET_301>)  AND 
+IF NOT EMPTY(<SET_302>)
+THEN
+	TRANSFORM(Eligible recipients of charitable donations_3940, {Parent1, Parent2, Eligible recipients of charitable donations_3940})
+	INSERT(<RESULTS>, Eligible recipients of charitable donations_3940)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Eligible recipients of charitable donations_3940)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #305
+//Environmental remediation trusts_3941
+<SET_305> = SET(Environmental remediation trusts_3941
+<SET_306> = SET(Parent1)
+<SET_307> = SET(Parent2)
+
+IF NOT EMPTY(<SET_305) AND 
+IF NOT EMPTY(<SET_306>)  AND 
+IF NOT EMPTY(<SET_307>)
+THEN
+	TRANSFORM(Environmental remediation trusts_3941, {Parent1, Parent2, Environmental remediation trusts_3941})
+	INSERT(<RESULTS>, Environmental remediation trusts_3941)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Environmental remediation trusts_3941)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #310
+//Estate administration expenses_3942
+<SET_310> = SET(Estate administration expenses_3942
+<SET_311> = SET(Parent1)
+<SET_312> = SET(Parent2)
+
+IF NOT EMPTY(<SET_310) AND 
+IF NOT EMPTY(<SET_311>)  AND 
+IF NOT EMPTY(<SET_312>)
+THEN
+	TRANSFORM(Estate administration expenses_3942, {Parent1, Parent2, Estate administration expenses_3942})
+	INSERT(<RESULTS>, Estate administration expenses_3942)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Estate administration expenses_3942)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #315
+//Estate tax credits_3944
+<SET_315> = SET(Estate tax credits_3944
+<SET_316> = SET(Parent1)
+<SET_317> = SET(Parent2)
+
+IF NOT EMPTY(<SET_315) AND 
+IF NOT EMPTY(<SET_316>)  AND 
+IF NOT EMPTY(<SET_317>)
+THEN
+	TRANSFORM(Estate tax credits_3944, {Parent1, Parent2, Estate tax credits_3944})
+	INSERT(<RESULTS>, Estate tax credits_3944)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Estate tax credits_3944)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #320
+//Estate tax rate schedule_3947
+<SET_320> = SET(Estate tax rate schedule_3947
+<SET_321> = SET(Parent1)
+<SET_322> = SET(Parent2)
+
+IF NOT EMPTY(<SET_320) AND 
+IF NOT EMPTY(<SET_321>)  AND 
+IF NOT EMPTY(<SET_322>)
+THEN
+	TRANSFORM(Estate tax rate schedule_3947, {Parent1, Parent2, Estate tax rate schedule_3947})
+	INSERT(<RESULTS>, Estate tax rate schedule_3947)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Estate tax rate schedule_3947)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #325
+//Estate tax returns_3949
+<SET_325> = SET(Estate tax returns_3949
+<SET_326> = SET(Parent1)
+<SET_327> = SET(Parent2)
+
+IF NOT EMPTY(<SET_325) AND 
+IF NOT EMPTY(<SET_326>)  AND 
+IF NOT EMPTY(<SET_327>)
+THEN
+	TRANSFORM(Estate tax returns_3949, {Parent1, Parent2, Estate tax returns_3949})
+	INSERT(<RESULTS>, Estate tax returns_3949)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Estate tax returns_3949)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #330
+//Estate tax_3132
+<SET_330> = SET(Estate tax_3132
+<SET_331> = SET(Parent1)
+<SET_332> = SET(Parent2)
+
+IF NOT EMPTY(<SET_330) AND 
+IF NOT EMPTY(<SET_331>)  AND 
+IF NOT EMPTY(<SET_332>)
+THEN
+	TRANSFORM(Estate tax_3132, {Parent1, Parent2, Estate tax_3132})
+	INSERT(<RESULTS>, Estate tax_3132)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Estate tax_3132)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #335
+//Estate versus income tax deduction_3950
+<SET_335> = SET(Estate versus income tax deduction_3950
+<SET_336> = SET(Parent1)
+<SET_337> = SET(Parent2)
+
+IF NOT EMPTY(<SET_335) AND 
+IF NOT EMPTY(<SET_336>)  AND 
+IF NOT EMPTY(<SET_337>)
+THEN
+	TRANSFORM(Estate versus income tax deduction_3950, {Parent1, Parent2, Estate versus income tax deduction_3950})
+	INSERT(<RESULTS>, Estate versus income tax deduction_3950)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Estate versus income tax deduction_3950)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #340
+//Estates and complex trusts deduction allocation_3952
+<SET_340> = SET(Estates and complex trusts deduction allocation_3952
+<SET_341> = SET(Parent1)
+<SET_342> = SET(Parent2)
+
+IF NOT EMPTY(<SET_340) AND 
+IF NOT EMPTY(<SET_341>)  AND 
+IF NOT EMPTY(<SET_342>)
+THEN
+	TRANSFORM(Estates and complex trusts deduction allocation_3952, {Parent1, Parent2, Estates and complex trusts deduction allocation_3952})
+	INSERT(<RESULTS>, Estates and complex trusts deduction allocation_3952)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Estates and complex trusts deduction allocation_3952)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #345
+//Estates and complex trusts distribution deduction_3953
+<SET_345> = SET(Estates and complex trusts distribution deduction_3953
+<SET_346> = SET(Parent1)
+<SET_347> = SET(Parent2)
+
+IF NOT EMPTY(<SET_345) AND 
+IF NOT EMPTY(<SET_346>)  AND 
+IF NOT EMPTY(<SET_347>)
+THEN
+	TRANSFORM(Estates and complex trusts distribution deduction_3953, {Parent1, Parent2, Estates and complex trusts distribution deduction_3953})
+	INSERT(<RESULTS>, Estates and complex trusts distribution deduction_3953)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Estates and complex trusts distribution deduction_3953)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #350
+//Estates and complex trusts tax year_3954
+<SET_350> = SET(Estates and complex trusts tax year_3954
+<SET_351> = SET(Parent1)
+<SET_352> = SET(Parent2)
+
+IF NOT EMPTY(<SET_350) AND 
+IF NOT EMPTY(<SET_351>)  AND 
+IF NOT EMPTY(<SET_352>)
+THEN
+	TRANSFORM(Estates and complex trusts tax year_3954, {Parent1, Parent2, Estates and complex trusts tax year_3954})
+	INSERT(<RESULTS>, Estates and complex trusts tax year_3954)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Estates and complex trusts tax year_3954)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #355
+//Estates and trusts_3955
+<SET_355> = SET(Estates and trusts_3955
+<SET_356> = SET(Parent1)
+<SET_357> = SET(Parent2)
+
+IF NOT EMPTY(<SET_355) AND 
+IF NOT EMPTY(<SET_356>)  AND 
+IF NOT EMPTY(<SET_357>)
+THEN
+	TRANSFORM(Estates and trusts_3955, {Parent1, Parent2, Estates and trusts_3955})
+	INSERT(<RESULTS>, Estates and trusts_3955)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Estates and trusts_3955)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #360
+//Estimated tax payments for  trusts and estates_3956
+<SET_360> = SET(Estimated tax payments for  trusts and estates_3956
+<SET_361> = SET(Parent1)
+<SET_362> = SET(Parent2)
+
+IF NOT EMPTY(<SET_360) AND 
+IF NOT EMPTY(<SET_361>)  AND 
+IF NOT EMPTY(<SET_362>)
+THEN
+	TRANSFORM(Estimated tax payments for  trusts and estates_3956, {Parent1, Parent2, Estimated tax payments for  trusts and estates_3956})
+	INSERT(<RESULTS>, Estimated tax payments for  trusts and estates_3956)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Estimated tax payments for  trusts and estates_3956)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #365
+//Excess deductions of  trusts and estates_3957
+<SET_365> = SET(Excess deductions of  trusts and estates_3957
+<SET_366> = SET(Parent1)
+<SET_367> = SET(Parent2)
+
+IF NOT EMPTY(<SET_365) AND 
+IF NOT EMPTY(<SET_366>)  AND 
+IF NOT EMPTY(<SET_367>)
+THEN
+	TRANSFORM(Excess deductions of  trusts and estates_3957, {Parent1, Parent2, Excess deductions of  trusts and estates_3957})
+	INSERT(<RESULTS>, Excess deductions of  trusts and estates_3957)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Excess deductions of  trusts and estates_3957)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #370
+//Exchange fund trusts_3958
+<SET_370> = SET(Exchange fund trusts_3958
+<SET_371> = SET(Parent1)
+<SET_372> = SET(Parent2)
+
+IF NOT EMPTY(<SET_370) AND 
+IF NOT EMPTY(<SET_371>)  AND 
+IF NOT EMPTY(<SET_372>)
+THEN
+	TRANSFORM(Exchange fund trusts_3958, {Parent1, Parent2, Exchange fund trusts_3958})
+	INSERT(<RESULTS>, Exchange fund trusts_3958)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Exchange fund trusts_3958)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #375
+//Expatriation effect on gift tax_3962
+<SET_375> = SET(Expatriation effect on gift tax_3962
+<SET_376> = SET(Parent1)
+<SET_377> = SET(Parent2)
+
+IF NOT EMPTY(<SET_375) AND 
+IF NOT EMPTY(<SET_376>)  AND 
+IF NOT EMPTY(<SET_377>)
+THEN
+	TRANSFORM(Expatriation effect on gift tax_3962, {Parent1, Parent2, Expatriation effect on gift tax_3962})
+	INSERT(<RESULTS>, Expatriation effect on gift tax_3962)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Expatriation effect on gift tax_3962)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #380
+//Expatriation to avoid estate tax_3963
+<SET_380> = SET(Expatriation to avoid estate tax_3963
+<SET_381> = SET(Parent1)
+<SET_382> = SET(Parent2)
+
+IF NOT EMPTY(<SET_380) AND 
+IF NOT EMPTY(<SET_381>)  AND 
+IF NOT EMPTY(<SET_382>)
+THEN
+	TRANSFORM(Expatriation to avoid estate tax_3963, {Parent1, Parent2, Expatriation to avoid estate tax_3963})
+	INSERT(<RESULTS>, Expatriation to avoid estate tax_3963)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Expatriation to avoid estate tax_3963)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #385
+//Extension of time for paying estate tax_3964
+<SET_385> = SET(Extension of time for paying estate tax_3964
+<SET_386> = SET(Parent1)
+<SET_387> = SET(Parent2)
+
+IF NOT EMPTY(<SET_385) AND 
+IF NOT EMPTY(<SET_386>)  AND 
+IF NOT EMPTY(<SET_387>)
+THEN
+	TRANSFORM(Extension of time for paying estate tax_3964, {Parent1, Parent2, Extension of time for paying estate tax_3964})
+	INSERT(<RESULTS>, Extension of time for paying estate tax_3964)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Extension of time for paying estate tax_3964)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #390
+//Extension of time for paying gift tax_3965
+<SET_390> = SET(Extension of time for paying gift tax_3965
+<SET_391> = SET(Parent1)
+<SET_392> = SET(Parent2)
+
+IF NOT EMPTY(<SET_390) AND 
+IF NOT EMPTY(<SET_391>)  AND 
+IF NOT EMPTY(<SET_392>)
+THEN
+	TRANSFORM(Extension of time for paying gift tax_3965, {Parent1, Parent2, Extension of time for paying gift tax_3965})
+	INSERT(<RESULTS>, Extension of time for paying gift tax_3965)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Extension of time for paying gift tax_3965)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #395
+//Extension of time for paying GST tax_3966
+<SET_395> = SET(Extension of time for paying GST tax_3966
+<SET_396> = SET(Parent1)
+<SET_397> = SET(Parent2)
+
+IF NOT EMPTY(<SET_395) AND 
+IF NOT EMPTY(<SET_396>)  AND 
+IF NOT EMPTY(<SET_397>)
+THEN
+	TRANSFORM(Extension of time for paying GST tax_3966, {Parent1, Parent2, Extension of time for paying GST tax_3966})
+	INSERT(<RESULTS>, Extension of time for paying GST tax_3966)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Extension of time for paying GST tax_3966)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #400
+//Extension of time for reporting estate tax_3967
+<SET_400> = SET(Extension of time for reporting estate tax_3967
+<SET_401> = SET(Parent1)
+<SET_402> = SET(Parent2)
+
+IF NOT EMPTY(<SET_400) AND 
+IF NOT EMPTY(<SET_401>)  AND 
+IF NOT EMPTY(<SET_402>)
+THEN
+	TRANSFORM(Extension of time for reporting estate tax_3967, {Parent1, Parent2, Extension of time for reporting estate tax_3967})
+	INSERT(<RESULTS>, Extension of time for reporting estate tax_3967)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Extension of time for reporting estate tax_3967)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #405
+//Extension of time for reporting gift tax_3968
+<SET_405> = SET(Extension of time for reporting gift tax_3968
+<SET_406> = SET(Parent1)
+<SET_407> = SET(Parent2)
+
+IF NOT EMPTY(<SET_405) AND 
+IF NOT EMPTY(<SET_406>)  AND 
+IF NOT EMPTY(<SET_407>)
+THEN
+	TRANSFORM(Extension of time for reporting gift tax_3968, {Parent1, Parent2, Extension of time for reporting gift tax_3968})
+	INSERT(<RESULTS>, Extension of time for reporting gift tax_3968)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Extension of time for reporting gift tax_3968)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #410
+//Family estate trusts_3970
+<SET_410> = SET(Family estate trusts_3970
+<SET_411> = SET(Parent1)
+<SET_412> = SET(Parent2)
+
+IF NOT EMPTY(<SET_410) AND 
+IF NOT EMPTY(<SET_411>)  AND 
+IF NOT EMPTY(<SET_412>)
+THEN
+	TRANSFORM(Family estate trusts_3970, {Parent1, Parent2, Family estate trusts_3970})
+	INSERT(<RESULTS>, Family estate trusts_3970)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Family estate trusts_3970)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #415
+//Family limited partnerships (FLPs)_3971
+<SET_415> = SET(Family limited partnerships (FLPs)_3971
+<SET_416> = SET(Parent1)
+<SET_417> = SET(Parent2)
+
+IF NOT EMPTY(<SET_415) AND 
+IF NOT EMPTY(<SET_416>)  AND 
+IF NOT EMPTY(<SET_417>)
+THEN
+	TRANSFORM(Family limited partnerships (FLPs)_3971, {Parent1, Parent2, Family limited partnerships (FLPs)_3971})
+	INSERT(<RESULTS>, Family limited partnerships (FLPs)_3971)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Family limited partnerships (FLPs)_3971)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #420
+//Fiduciary and transferee liability_3973
+<SET_420> = SET(Fiduciary and transferee liability_3973
+<SET_421> = SET(Parent1)
+<SET_422> = SET(Parent2)
+
+IF NOT EMPTY(<SET_420) AND 
+IF NOT EMPTY(<SET_421>)  AND 
+IF NOT EMPTY(<SET_422>)
+THEN
+	TRANSFORM(Fiduciary and transferee liability_3973, {Parent1, Parent2, Fiduciary and transferee liability_3973})
+	INSERT(<RESULTS>, Fiduciary and transferee liability_3973)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Fiduciary and transferee liability_3973)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #425
+//Foreign death taxes_3975
+<SET_425> = SET(Foreign death taxes_3975
+<SET_426> = SET(Parent1)
+<SET_427> = SET(Parent2)
+
+IF NOT EMPTY(<SET_425) AND 
+IF NOT EMPTY(<SET_426>)  AND 
+IF NOT EMPTY(<SET_427>)
+THEN
+	TRANSFORM(Foreign death taxes_3975, {Parent1, Parent2, Foreign death taxes_3975})
+	INSERT(<RESULTS>, Foreign death taxes_3975)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Foreign death taxes_3975)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #430
+//Foreign tax credit for trusts and estates_3976
+<SET_430> = SET(Foreign tax credit for trusts and estates_3976
+<SET_431> = SET(Parent1)
+<SET_432> = SET(Parent2)
+
+IF NOT EMPTY(<SET_430) AND 
+IF NOT EMPTY(<SET_431>)  AND 
+IF NOT EMPTY(<SET_432>)
+THEN
+	TRANSFORM(Foreign tax credit for trusts and estates_3976, {Parent1, Parent2, Foreign tax credit for trusts and estates_3976})
+	INSERT(<RESULTS>, Foreign tax credit for trusts and estates_3976)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Foreign tax credit for trusts and estates_3976)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #435
+//Foreign trusts and estates_3978
+<SET_435> = SET(Foreign trusts and estates_3978
+<SET_436> = SET(Parent1)
+<SET_437> = SET(Parent2)
+
+IF NOT EMPTY(<SET_435) AND 
+IF NOT EMPTY(<SET_436>)  AND 
+IF NOT EMPTY(<SET_437>)
+THEN
+	TRANSFORM(Foreign trusts and estates_3978, {Parent1, Parent2, Foreign trusts and estates_3978})
+	INSERT(<RESULTS>, Foreign trusts and estates_3978)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Foreign trusts and estates_3978)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #440
+//Foreign trusts_3977
+<SET_440> = SET(Foreign trusts_3977
+<SET_441> = SET(Parent1)
+<SET_442> = SET(Parent2)
+
+IF NOT EMPTY(<SET_440) AND 
+IF NOT EMPTY(<SET_441>)  AND 
+IF NOT EMPTY(<SET_442>)
+THEN
+	TRANSFORM(Foreign trusts_3977, {Parent1, Parent2, Foreign trusts_3977})
+	INSERT(<RESULTS>, Foreign trusts_3977)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Foreign trusts_3977)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #445
+//Funeral expense deductions_3979
+<SET_445> = SET(Funeral expense deductions_3979
+<SET_446> = SET(Parent1)
+<SET_447> = SET(Parent2)
+
+IF NOT EMPTY(<SET_445) AND 
+IF NOT EMPTY(<SET_446>)  AND 
+IF NOT EMPTY(<SET_447>)
+THEN
+	TRANSFORM(Funeral expense deductions_3979, {Parent1, Parent2, Funeral expense deductions_3979})
+	INSERT(<RESULTS>, Funeral expense deductions_3979)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Funeral expense deductions_3979)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #450
+//Funeral trusts_3980
+<SET_450> = SET(Funeral trusts_3980
+<SET_451> = SET(Parent1)
+<SET_452> = SET(Parent2)
+
+IF NOT EMPTY(<SET_450) AND 
+IF NOT EMPTY(<SET_451>)  AND 
+IF NOT EMPTY(<SET_452>)
+THEN
+	TRANSFORM(Funeral trusts_3980, {Parent1, Parent2, Funeral trusts_3980})
+	INSERT(<RESULTS>, Funeral trusts_3980)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Funeral trusts_3980)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #455
+//General business credit for trusts and estates_3982
+<SET_455> = SET(General business credit for trusts and estates_3982
+<SET_456> = SET(Parent1)
+<SET_457> = SET(Parent2)
+
+IF NOT EMPTY(<SET_455) AND 
+IF NOT EMPTY(<SET_456>)  AND 
+IF NOT EMPTY(<SET_457>)
+THEN
+	TRANSFORM(General business credit for trusts and estates_3982, {Parent1, Parent2, General business credit for trusts and estates_3982})
+	INSERT(<RESULTS>, General business credit for trusts and estates_3982)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, General business credit for trusts and estates_3982)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #460
+//General powers of appointment_3983
+<SET_460> = SET(General powers of appointment_3983
+<SET_461> = SET(Parent1)
+<SET_462> = SET(Parent2)
+
+IF NOT EMPTY(<SET_460) AND 
+IF NOT EMPTY(<SET_461>)  AND 
+IF NOT EMPTY(<SET_462>)
+THEN
+	TRANSFORM(General powers of appointment_3983, {Parent1, Parent2, General powers of appointment_3983})
+	INSERT(<RESULTS>, General powers of appointment_3983)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, General powers of appointment_3983)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #465
+//Generation-skipping transfer tax_3133
+<SET_465> = SET(Generation-skipping transfer tax_3133
+<SET_466> = SET(Parent1)
+<SET_467> = SET(Parent2)
+
+IF NOT EMPTY(<SET_465) AND 
+IF NOT EMPTY(<SET_466>)  AND 
+IF NOT EMPTY(<SET_467>)
+THEN
+	TRANSFORM(Generation-skipping transfer tax_3133, {Parent1, Parent2, Generation-skipping transfer tax_3133})
+	INSERT(<RESULTS>, Generation-skipping transfer tax_3133)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Generation-skipping transfer tax_3133)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #470
+//Gift or below-market loans_3986
+<SET_470> = SET(Gift or below-market loans_3986
+<SET_471> = SET(Parent1)
+<SET_472> = SET(Parent2)
+
+IF NOT EMPTY(<SET_470) AND 
+IF NOT EMPTY(<SET_471>)  AND 
+IF NOT EMPTY(<SET_472>)
+THEN
+	TRANSFORM(Gift or below-market loans_3986, {Parent1, Parent2, Gift or below-market loans_3986})
+	INSERT(<RESULTS>, Gift or below-market loans_3986)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Gift or below-market loans_3986)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #475
+//Gift tax consequences_3987
+<SET_475> = SET(Gift tax consequences_3987
+<SET_476> = SET(Parent1)
+<SET_477> = SET(Parent2)
+
+IF NOT EMPTY(<SET_475) AND 
+IF NOT EMPTY(<SET_476>)  AND 
+IF NOT EMPTY(<SET_477>)
+THEN
+	TRANSFORM(Gift tax consequences_3987, {Parent1, Parent2, Gift tax consequences_3987})
+	INSERT(<RESULTS>, Gift tax consequences_3987)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Gift tax consequences_3987)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #480
+//Gift tax payment due dates_3988
+<SET_480> = SET(Gift tax payment due dates_3988
+<SET_481> = SET(Parent1)
+<SET_482> = SET(Parent2)
+
+IF NOT EMPTY(<SET_480) AND 
+IF NOT EMPTY(<SET_481>)  AND 
+IF NOT EMPTY(<SET_482>)
+THEN
+	TRANSFORM(Gift tax payment due dates_3988, {Parent1, Parent2, Gift tax payment due dates_3988})
+	INSERT(<RESULTS>, Gift tax payment due dates_3988)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Gift tax payment due dates_3988)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #485
+//Gift tax reporting due dates_3989
+<SET_485> = SET(Gift tax reporting due dates_3989
+<SET_486> = SET(Parent1)
+<SET_487> = SET(Parent2)
+
+IF NOT EMPTY(<SET_485) AND 
+IF NOT EMPTY(<SET_486>)  AND 
+IF NOT EMPTY(<SET_487>)
+THEN
+	TRANSFORM(Gift tax reporting due dates_3989, {Parent1, Parent2, Gift tax reporting due dates_3989})
+	INSERT(<RESULTS>, Gift tax reporting due dates_3989)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Gift tax reporting due dates_3989)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #490
+//Gift tax returns_3990
+<SET_490> = SET(Gift tax returns_3990
+<SET_491> = SET(Parent1)
+<SET_492> = SET(Parent2)
+
+IF NOT EMPTY(<SET_490) AND 
+IF NOT EMPTY(<SET_491>)  AND 
+IF NOT EMPTY(<SET_492>)
+THEN
+	TRANSFORM(Gift tax returns_3990, {Parent1, Parent2, Gift tax returns_3990})
+	INSERT(<RESULTS>, Gift tax returns_3990)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Gift tax returns_3990)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #495
+//Gift tax valuation methods_4198
+<SET_495> = SET(Gift tax valuation methods_4198
+<SET_496> = SET(Parent1)
+<SET_497> = SET(Parent2)
+
+IF NOT EMPTY(<SET_495) AND 
+IF NOT EMPTY(<SET_496>)  AND 
+IF NOT EMPTY(<SET_497>)
+THEN
+	TRANSFORM(Gift tax valuation methods_4198, {Parent1, Parent2, Gift tax valuation methods_4198})
+	INSERT(<RESULTS>, Gift tax valuation methods_4198)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Gift tax valuation methods_4198)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #500
+//Gift tax_3131
+<SET_500> = SET(Gift tax_3131
+<SET_501> = SET(Parent1)
+<SET_502> = SET(Parent2)
+
+IF NOT EMPTY(<SET_500) AND 
+IF NOT EMPTY(<SET_501>)  AND 
+IF NOT EMPTY(<SET_502>)
+THEN
+	TRANSFORM(Gift tax_3131, {Parent1, Parent2, Gift tax_3131})
+	INSERT(<RESULTS>, Gift tax_3131)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Gift tax_3131)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #505
+//Grandfathering (GST)_3994
+<SET_505> = SET(Grandfathering (GST)_3994
+<SET_506> = SET(Parent1)
+<SET_507> = SET(Parent2)
+
+IF NOT EMPTY(<SET_505) AND 
+IF NOT EMPTY(<SET_506>)  AND 
+IF NOT EMPTY(<SET_507>)
+THEN
+	TRANSFORM(Grandfathering (GST)_3994, {Parent1, Parent2, Grandfathering (GST)_3994})
+	INSERT(<RESULTS>, Grandfathering (GST)_3994)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Grandfathering (GST)_3994)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #510
+//Grantor retained annuity trusts (GRATs)_3995
+<SET_510> = SET(Grantor retained annuity trusts (GRATs)_3995
+<SET_511> = SET(Parent1)
+<SET_512> = SET(Parent2)
+
+IF NOT EMPTY(<SET_510) AND 
+IF NOT EMPTY(<SET_511>)  AND 
+IF NOT EMPTY(<SET_512>)
+THEN
+	TRANSFORM(Grantor retained annuity trusts (GRATs)_3995, {Parent1, Parent2, Grantor retained annuity trusts (GRATs)_3995})
+	INSERT(<RESULTS>, Grantor retained annuity trusts (GRATs)_3995)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Grantor retained annuity trusts (GRATs)_3995)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #515
+//Grantor retained interest trusts (GRITs)_3996
+<SET_515> = SET(Grantor retained interest trusts (GRITs)_3996
+<SET_516> = SET(Parent1)
+<SET_517> = SET(Parent2)
+
+IF NOT EMPTY(<SET_515) AND 
+IF NOT EMPTY(<SET_516>)  AND 
+IF NOT EMPTY(<SET_517>)
+THEN
+	TRANSFORM(Grantor retained interest trusts (GRITs)_3996, {Parent1, Parent2, Grantor retained interest trusts (GRITs)_3996})
+	INSERT(<RESULTS>, Grantor retained interest trusts (GRITs)_3996)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Grantor retained interest trusts (GRITs)_3996)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #520
+//Grantor retained unitrusts (GRUTs)_3997
+<SET_520> = SET(Grantor retained unitrusts (GRUTs)_3997
+<SET_521> = SET(Parent1)
+<SET_522> = SET(Parent2)
+
+IF NOT EMPTY(<SET_520) AND 
+IF NOT EMPTY(<SET_521>)  AND 
+IF NOT EMPTY(<SET_522>)
+THEN
+	TRANSFORM(Grantor retained unitrusts (GRUTs)_3997, {Parent1, Parent2, Grantor retained unitrusts (GRUTs)_3997})
+	INSERT(<RESULTS>, Grantor retained unitrusts (GRUTs)_3997)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Grantor retained unitrusts (GRUTs)_3997)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #525
+//Grantor trust valuation_4207
+<SET_525> = SET(Grantor trust valuation_4207
+<SET_526> = SET(Parent1)
+<SET_527> = SET(Parent2)
+
+IF NOT EMPTY(<SET_525) AND 
+IF NOT EMPTY(<SET_526>)  AND 
+IF NOT EMPTY(<SET_527>)
+THEN
+	TRANSFORM(Grantor trust valuation_4207, {Parent1, Parent2, Grantor trust valuation_4207})
+	INSERT(<RESULTS>, Grantor trust valuation_4207)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Grantor trust valuation_4207)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #530
+//Gross estate
+<SET_530> = SET(Gross estate
+<SET_531> = SET(Parent1)
+<SET_532> = SET(Parent2)
+
+IF NOT EMPTY(<SET_530) AND 
+IF NOT EMPTY(<SET_531>)  AND 
+IF NOT EMPTY(<SET_532>)
+THEN
+	TRANSFORM(Gross estate, {Parent1, Parent2, Gross estate})
+	INSERT(<RESULTS>, Gross estate)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Gross estate)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #535
+//Gross estate_3999
+<SET_535> = SET(Gross estate_3999
+<SET_536> = SET(Parent1)
+<SET_537> = SET(Parent2)
+
+IF NOT EMPTY(<SET_535) AND 
+IF NOT EMPTY(<SET_536>)  AND 
+IF NOT EMPTY(<SET_537>)
+THEN
+	TRANSFORM(Gross estate_3999, {Parent1, Parent2, Gross estate_3999})
+	INSERT(<RESULTS>, Gross estate_3999)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Gross estate_3999)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #540
+//Gross income in estates and complex trusts_4001
+<SET_540> = SET(Gross income in estates and complex trusts_4001
+<SET_541> = SET(Parent1)
+<SET_542> = SET(Parent2)
+
+IF NOT EMPTY(<SET_540) AND 
+IF NOT EMPTY(<SET_541>)  AND 
+IF NOT EMPTY(<SET_542>)
+THEN
+	TRANSFORM(Gross income in estates and complex trusts_4001, {Parent1, Parent2, Gross income in estates and complex trusts_4001})
+	INSERT(<RESULTS>, Gross income in estates and complex trusts_4001)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Gross income in estates and complex trusts_4001)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #545
+//Gross income in simple trusts_4002
+<SET_545> = SET(Gross income in simple trusts_4002
+<SET_546> = SET(Parent1)
+<SET_547> = SET(Parent2)
+
+IF NOT EMPTY(<SET_545) AND 
+IF NOT EMPTY(<SET_546>)  AND 
+IF NOT EMPTY(<SET_547>)
+THEN
+	TRANSFORM(Gross income in simple trusts_4002, {Parent1, Parent2, Gross income in simple trusts_4002})
+	INSERT(<RESULTS>, Gross income in simple trusts_4002)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Gross income in simple trusts_4002)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #550
+//GST tax returns_4006
+<SET_550> = SET(GST tax returns_4006
+<SET_551> = SET(Parent1)
+<SET_552> = SET(Parent2)
+
+IF NOT EMPTY(<SET_550) AND 
+IF NOT EMPTY(<SET_551>)  AND 
+IF NOT EMPTY(<SET_552>)
+THEN
+	TRANSFORM(GST tax returns_4006, {Parent1, Parent2, GST tax returns_4006})
+	INSERT(<RESULTS>, GST tax returns_4006)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, GST tax returns_4006)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #555
+//Impartiality of fiduciaries_4007
+<SET_555> = SET(Impartiality of fiduciaries_4007
+<SET_556> = SET(Parent1)
+<SET_557> = SET(Parent2)
+
+IF NOT EMPTY(<SET_555) AND 
+IF NOT EMPTY(<SET_556>)  AND 
+IF NOT EMPTY(<SET_557>)
+THEN
+	TRANSFORM(Impartiality of fiduciaries_4007, {Parent1, Parent2, Impartiality of fiduciaries_4007})
+	INSERT(<RESULTS>, Impartiality of fiduciaries_4007)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Impartiality of fiduciaries_4007)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #560
+//Incidents of ownership of  life insurance_4008
+<SET_560> = SET(Incidents of ownership of  life insurance_4008
+<SET_561> = SET(Parent1)
+<SET_562> = SET(Parent2)
+
+IF NOT EMPTY(<SET_560) AND 
+IF NOT EMPTY(<SET_561>)  AND 
+IF NOT EMPTY(<SET_562>)
+THEN
+	TRANSFORM(Incidents of ownership of  life insurance_4008, {Parent1, Parent2, Incidents of ownership of  life insurance_4008})
+	INSERT(<RESULTS>, Incidents of ownership of  life insurance_4008)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Incidents of ownership of  life insurance_4008)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #565
+//Inclusion ratio (GST)_4009
+<SET_565> = SET(Inclusion ratio (GST)_4009
+<SET_566> = SET(Parent1)
+<SET_567> = SET(Parent2)
+
+IF NOT EMPTY(<SET_565) AND 
+IF NOT EMPTY(<SET_566>)  AND 
+IF NOT EMPTY(<SET_567>)
+THEN
+	TRANSFORM(Inclusion ratio (GST)_4009, {Parent1, Parent2, Inclusion ratio (GST)_4009})
+	INSERT(<RESULTS>, Inclusion ratio (GST)_4009)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Inclusion ratio (GST)_4009)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #570
+//Income character for estates and complex trusts_4011
+<SET_570> = SET(Income character for estates and complex trusts_4011
+<SET_571> = SET(Parent1)
+<SET_572> = SET(Parent2)
+
+IF NOT EMPTY(<SET_570) AND 
+IF NOT EMPTY(<SET_571>)  AND 
+IF NOT EMPTY(<SET_572>)
+THEN
+	TRANSFORM(Income character for estates and complex trusts_4011, {Parent1, Parent2, Income character for estates and complex trusts_4011})
+	INSERT(<RESULTS>, Income character for estates and complex trusts_4011)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Income character for estates and complex trusts_4011)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #575
+//Income character for simple trusts_4012
+<SET_575> = SET(Income character for simple trusts_4012
+<SET_576> = SET(Parent1)
+<SET_577> = SET(Parent2)
+
+IF NOT EMPTY(<SET_575) AND 
+IF NOT EMPTY(<SET_576>)  AND 
+IF NOT EMPTY(<SET_577>)
+THEN
+	TRANSFORM(Income character for simple trusts_4012, {Parent1, Parent2, Income character for simple trusts_4012})
+	INSERT(<RESULTS>, Income character for simple trusts_4012)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Income character for simple trusts_4012)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #580
+//Income for benefit of grantor_4013
+<SET_580> = SET(Income for benefit of grantor_4013
+<SET_581> = SET(Parent1)
+<SET_582> = SET(Parent2)
+
+IF NOT EMPTY(<SET_580) AND 
+IF NOT EMPTY(<SET_581>)  AND 
+IF NOT EMPTY(<SET_582>)
+THEN
+	TRANSFORM(Income for benefit of grantor_4013, {Parent1, Parent2, Income for benefit of grantor_4013})
+	INSERT(<RESULTS>, Income for benefit of grantor_4013)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Income for benefit of grantor_4013)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #585
+//Income permanently set aside from trusts and estates_4015
+<SET_585> = SET(Income permanently set aside from trusts and estates_4015
+<SET_586> = SET(Parent1)
+<SET_587> = SET(Parent2)
+
+IF NOT EMPTY(<SET_585) AND 
+IF NOT EMPTY(<SET_586>)  AND 
+IF NOT EMPTY(<SET_587>)
+THEN
+	TRANSFORM(Income permanently set aside from trusts and estates_4015, {Parent1, Parent2, Income permanently set aside from trusts and estates_4015})
+	INSERT(<RESULTS>, Income permanently set aside from trusts and estates_4015)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Income permanently set aside from trusts and estates_4015)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #590
+//Income prior to death_4016
+<SET_590> = SET(Income prior to death_4016
+<SET_591> = SET(Parent1)
+<SET_592> = SET(Parent2)
+
+IF NOT EMPTY(<SET_590) AND 
+IF NOT EMPTY(<SET_591>)  AND 
+IF NOT EMPTY(<SET_592>)
+THEN
+	TRANSFORM(Income prior to death_4016, {Parent1, Parent2, Income prior to death_4016})
+	INSERT(<RESULTS>, Income prior to death_4016)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Income prior to death_4016)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #595
+//Income versus principal_4018
+<SET_595> = SET(Income versus principal_4018
+<SET_596> = SET(Parent1)
+<SET_597> = SET(Parent2)
+
+IF NOT EMPTY(<SET_595) AND 
+IF NOT EMPTY(<SET_596>)  AND 
+IF NOT EMPTY(<SET_597>)
+THEN
+	TRANSFORM(Income versus principal_4018, {Parent1, Parent2, Income versus principal_4018})
+	INSERT(<RESULTS>, Income versus principal_4018)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Income versus principal_4018)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #600
+//Indirect gifts_4019
+<SET_600> = SET(Indirect gifts_4019
+<SET_601> = SET(Parent1)
+<SET_602> = SET(Parent2)
+
+IF NOT EMPTY(<SET_600) AND 
+IF NOT EMPTY(<SET_601>)  AND 
+IF NOT EMPTY(<SET_602>)
+THEN
+	TRANSFORM(Indirect gifts_4019, {Parent1, Parent2, Indirect gifts_4019})
+	INSERT(<RESULTS>, Indirect gifts_4019)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Indirect gifts_4019)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #605
+//Individual retirement accounts (estates)_4020
+<SET_605> = SET(Individual retirement accounts (estates)_4020
+<SET_606> = SET(Parent1)
+<SET_607> = SET(Parent2)
+
+IF NOT EMPTY(<SET_605) AND 
+IF NOT EMPTY(<SET_606>)  AND 
+IF NOT EMPTY(<SET_607>)
+THEN
+	TRANSFORM(Individual retirement accounts (estates)_4020, {Parent1, Parent2, Individual retirement accounts (estates)_4020})
+	INSERT(<RESULTS>, Individual retirement accounts (estates)_4020)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Individual retirement accounts (estates)_4020)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #610
+//In-kind distributions_4021
+<SET_610> = SET(In-kind distributions_4021
+<SET_611> = SET(Parent1)
+<SET_612> = SET(Parent2)
+
+IF NOT EMPTY(<SET_610) AND 
+IF NOT EMPTY(<SET_611>)  AND 
+IF NOT EMPTY(<SET_612>)
+THEN
+	TRANSFORM(In-kind distributions_4021, {Parent1, Parent2, In-kind distributions_4021})
+	INSERT(<RESULTS>, In-kind distributions_4021)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, In-kind distributions_4021)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #615
+//Installment sales_4023
+<SET_615> = SET(Installment sales_4023
+<SET_616> = SET(Parent1)
+<SET_617> = SET(Parent2)
+
+IF NOT EMPTY(<SET_615) AND 
+IF NOT EMPTY(<SET_616>)  AND 
+IF NOT EMPTY(<SET_617>)
+THEN
+	TRANSFORM(Installment sales_4023, {Parent1, Parent2, Installment sales_4023})
+	INSERT(<RESULTS>, Installment sales_4023)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Installment sales_4023)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #620
+//Insurable interest_4024
+<SET_620> = SET(Insurable interest_4024
+<SET_621> = SET(Parent1)
+<SET_622> = SET(Parent2)
+
+IF NOT EMPTY(<SET_620) AND 
+IF NOT EMPTY(<SET_621>)  AND 
+IF NOT EMPTY(<SET_622>)
+THEN
+	TRANSFORM(Insurable interest_4024, {Parent1, Parent2, Insurable interest_4024})
+	INSERT(<RESULTS>, Insurable interest_4024)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Insurable interest_4024)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #625
+//Insurance trusts_4025
+<SET_625> = SET(Insurance trusts_4025
+<SET_626> = SET(Parent1)
+<SET_627> = SET(Parent2)
+
+IF NOT EMPTY(<SET_625) AND 
+IF NOT EMPTY(<SET_626>)  AND 
+IF NOT EMPTY(<SET_627>)
+THEN
+	TRANSFORM(Insurance trusts_4025, {Parent1, Parent2, Insurance trusts_4025})
+	INSERT(<RESULTS>, Insurance trusts_4025)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Insurance trusts_4025)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #630
+//Intentionally defective trusts_4026
+<SET_630> = SET(Intentionally defective trusts_4026
+<SET_631> = SET(Parent1)
+<SET_632> = SET(Parent2)
+
+IF NOT EMPTY(<SET_630) AND 
+IF NOT EMPTY(<SET_631>)  AND 
+IF NOT EMPTY(<SET_632>)
+THEN
+	TRANSFORM(Intentionally defective trusts_4026, {Parent1, Parent2, Intentionally defective trusts_4026})
+	INSERT(<RESULTS>, Intentionally defective trusts_4026)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Intentionally defective trusts_4026)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #635
+//Interest expenses of  trusts and estates_4027
+<SET_635> = SET(Interest expenses of  trusts and estates_4027
+<SET_636> = SET(Parent1)
+<SET_637> = SET(Parent2)
+
+IF NOT EMPTY(<SET_635) AND 
+IF NOT EMPTY(<SET_636>)  AND 
+IF NOT EMPTY(<SET_637>)
+THEN
+	TRANSFORM(Interest expenses of  trusts and estates_4027, {Parent1, Parent2, Interest expenses of  trusts and estates_4027})
+	INSERT(<RESULTS>, Interest expenses of  trusts and estates_4027)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Interest expenses of  trusts and estates_4027)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #640
+//Interest relate to trusts and estates_4028
+<SET_640> = SET(Interest relate to trusts and estates_4028
+<SET_641> = SET(Parent1)
+<SET_642> = SET(Parent2)
+
+IF NOT EMPTY(<SET_640) AND 
+IF NOT EMPTY(<SET_641>)  AND 
+IF NOT EMPTY(<SET_642>)
+THEN
+	TRANSFORM(Interest relate to trusts and estates_4028, {Parent1, Parent2, Interest relate to trusts and estates_4028})
+	INSERT(<RESULTS>, Interest relate to trusts and estates_4028)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Interest relate to trusts and estates_4028)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #645
+//Investment trusts_4030
+<SET_645> = SET(Investment trusts_4030
+<SET_646> = SET(Parent1)
+<SET_647> = SET(Parent2)
+
+IF NOT EMPTY(<SET_645) AND 
+IF NOT EMPTY(<SET_646>)  AND 
+IF NOT EMPTY(<SET_647>)
+THEN
+	TRANSFORM(Investment trusts_4030, {Parent1, Parent2, Investment trusts_4030})
+	INSERT(<RESULTS>, Investment trusts_4030)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Investment trusts_4030)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #650
+//Irrevocable trusts_4031
+<SET_650> = SET(Irrevocable trusts_4031
+<SET_651> = SET(Parent1)
+<SET_652> = SET(Parent2)
+
+IF NOT EMPTY(<SET_650) AND 
+IF NOT EMPTY(<SET_651>)  AND 
+IF NOT EMPTY(<SET_652>)
+THEN
+	TRANSFORM(Irrevocable trusts_4031, {Parent1, Parent2, Irrevocable trusts_4031})
+	INSERT(<RESULTS>, Irrevocable trusts_4031)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Irrevocable trusts_4031)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #655
+//Joint property_4032
+<SET_655> = SET(Joint property_4032
+<SET_656> = SET(Parent1)
+<SET_657> = SET(Parent2)
+
+IF NOT EMPTY(<SET_655) AND 
+IF NOT EMPTY(<SET_656>)  AND 
+IF NOT EMPTY(<SET_657>)
+THEN
+	TRANSFORM(Joint property_4032, {Parent1, Parent2, Joint property_4032})
+	INSERT(<RESULTS>, Joint property_4032)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Joint property_4032)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #660
+//Joint tenancy_4034
+<SET_660> = SET(Joint tenancy_4034
+<SET_661> = SET(Parent1)
+<SET_662> = SET(Parent2)
+
+IF NOT EMPTY(<SET_660) AND 
+IF NOT EMPTY(<SET_661>)  AND 
+IF NOT EMPTY(<SET_662>)
+THEN
+	TRANSFORM(Joint tenancy_4034, {Parent1, Parent2, Joint tenancy_4034})
+	INSERT(<RESULTS>, Joint tenancy_4034)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Joint tenancy_4034)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #665
+//Jointly held property in an estate_4035
+<SET_665> = SET(Jointly held property in an estate_4035
+<SET_666> = SET(Parent1)
+<SET_667> = SET(Parent2)
+
+IF NOT EMPTY(<SET_665) AND 
+IF NOT EMPTY(<SET_666>)  AND 
+IF NOT EMPTY(<SET_667>)
+THEN
+	TRANSFORM(Jointly held property in an estate_4035, {Parent1, Parent2, Jointly held property in an estate_4035})
+	INSERT(<RESULTS>, Jointly held property in an estate_4035)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Jointly held property in an estate_4035)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #670
+//Lapsing rights and restrictions (gifts)_4036
+<SET_670> = SET(Lapsing rights and restrictions (gifts)_4036
+<SET_671> = SET(Parent1)
+<SET_672> = SET(Parent2)
+
+IF NOT EMPTY(<SET_670) AND 
+IF NOT EMPTY(<SET_671>)  AND 
+IF NOT EMPTY(<SET_672>)
+THEN
+	TRANSFORM(Lapsing rights and restrictions (gifts)_4036, {Parent1, Parent2, Lapsing rights and restrictions (gifts)_4036})
+	INSERT(<RESULTS>, Lapsing rights and restrictions (gifts)_4036)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Lapsing rights and restrictions (gifts)_4036)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #675
+//Liability for gift tax payment_4038
+<SET_675> = SET(Liability for gift tax payment_4038
+<SET_676> = SET(Parent1)
+<SET_677> = SET(Parent2)
+
+IF NOT EMPTY(<SET_675) AND 
+IF NOT EMPTY(<SET_676>)  AND 
+IF NOT EMPTY(<SET_677>)
+THEN
+	TRANSFORM(Liability for gift tax payment_4038, {Parent1, Parent2, Liability for gift tax payment_4038})
+	INSERT(<RESULTS>, Liability for gift tax payment_4038)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Liability for gift tax payment_4038)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #680
+//Life estate with power of appointment_4040
+<SET_680> = SET(Life estate with power of appointment_4040
+<SET_681> = SET(Parent1)
+<SET_682> = SET(Parent2)
+
+IF NOT EMPTY(<SET_680) AND 
+IF NOT EMPTY(<SET_681>)  AND 
+IF NOT EMPTY(<SET_682>)
+THEN
+	TRANSFORM(Life estate with power of appointment_4040, {Parent1, Parent2, Life estate with power of appointment_4040})
+	INSERT(<RESULTS>, Life estate with power of appointment_4040)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Life estate with power of appointment_4040)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #685
+//Life insurance in gross estate_4043
+<SET_685> = SET(Life insurance in gross estate_4043
+<SET_686> = SET(Parent1)
+<SET_687> = SET(Parent2)
+
+IF NOT EMPTY(<SET_685) AND 
+IF NOT EMPTY(<SET_686>)  AND 
+IF NOT EMPTY(<SET_687>)
+THEN
+	TRANSFORM(Life insurance in gross estate_4043, {Parent1, Parent2, Life insurance in gross estate_4043})
+	INSERT(<RESULTS>, Life insurance in gross estate_4043)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Life insurance in gross estate_4043)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #690
+//Life insurance policy transfers_4044
+<SET_690> = SET(Life insurance policy transfers_4044
+<SET_691> = SET(Parent1)
+<SET_692> = SET(Parent2)
+
+IF NOT EMPTY(<SET_690) AND 
+IF NOT EMPTY(<SET_691>)  AND 
+IF NOT EMPTY(<SET_692>)
+THEN
+	TRANSFORM(Life insurance policy transfers_4044, {Parent1, Parent2, Life insurance policy transfers_4044})
+	INSERT(<RESULTS>, Life insurance policy transfers_4044)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Life insurance policy transfers_4044)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #695
+//Life insurance trusts_4046
+<SET_695> = SET(Life insurance trusts_4046
+<SET_696> = SET(Parent1)
+<SET_697> = SET(Parent2)
+
+IF NOT EMPTY(<SET_695) AND 
+IF NOT EMPTY(<SET_696>)  AND 
+IF NOT EMPTY(<SET_697>)
+THEN
+	TRANSFORM(Life insurance trusts_4046, {Parent1, Parent2, Life insurance trusts_4046})
+	INSERT(<RESULTS>, Life insurance trusts_4046)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Life insurance trusts_4046)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #700
+//Limitations on distributions deduction for  trusts and estates_4049
+<SET_700> = SET(Limitations on distributions deduction for  trusts and estates_4049
+<SET_701> = SET(Parent1)
+<SET_702> = SET(Parent2)
+
+IF NOT EMPTY(<SET_700) AND 
+IF NOT EMPTY(<SET_701>)  AND 
+IF NOT EMPTY(<SET_702>)
+THEN
+	TRANSFORM(Limitations on distributions deduction for  trusts and estates_4049, {Parent1, Parent2, Limitations on distributions deduction for  trusts and estates_4049})
+	INSERT(<RESULTS>, Limitations on distributions deduction for  trusts and estates_4049)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Limitations on distributions deduction for  trusts and estates_4049)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #705
+//Limitations_4048
+<SET_705> = SET(Limitations_4048
+<SET_706> = SET(Parent1)
+<SET_707> = SET(Parent2)
+
+IF NOT EMPTY(<SET_705) AND 
+IF NOT EMPTY(<SET_706>)  AND 
+IF NOT EMPTY(<SET_707>)
+THEN
+	TRANSFORM(Limitations_4048, {Parent1, Parent2, Limitations_4048})
+	INSERT(<RESULTS>, Limitations_4048)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Limitations_4048)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #710
+//Liquidating trusts_4051
+<SET_710> = SET(Liquidating trusts_4051
+<SET_711> = SET(Parent1)
+<SET_712> = SET(Parent2)
+
+IF NOT EMPTY(<SET_710) AND 
+IF NOT EMPTY(<SET_711>)  AND 
+IF NOT EMPTY(<SET_712>)
+THEN
+	TRANSFORM(Liquidating trusts_4051, {Parent1, Parent2, Liquidating trusts_4051})
+	INSERT(<RESULTS>, Liquidating trusts_4051)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Liquidating trusts_4051)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #715
+//Losses for  trusts and estates_4054
+<SET_715> = SET(Losses for  trusts and estates_4054
+<SET_716> = SET(Parent1)
+<SET_717> = SET(Parent2)
+
+IF NOT EMPTY(<SET_715) AND 
+IF NOT EMPTY(<SET_716>)  AND 
+IF NOT EMPTY(<SET_717>)
+THEN
+	TRANSFORM(Losses for  trusts and estates_4054, {Parent1, Parent2, Losses for  trusts and estates_4054})
+	INSERT(<RESULTS>, Losses for  trusts and estates_4054)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Losses for  trusts and estates_4054)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #720
+//Management of partnership interests_4056
+<SET_720> = SET(Management of partnership interests_4056
+<SET_721> = SET(Parent1)
+<SET_722> = SET(Parent2)
+
+IF NOT EMPTY(<SET_720) AND 
+IF NOT EMPTY(<SET_721>)  AND 
+IF NOT EMPTY(<SET_722>)
+THEN
+	TRANSFORM(Management of partnership interests_4056, {Parent1, Parent2, Management of partnership interests_4056})
+	INSERT(<RESULTS>, Management of partnership interests_4056)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Management of partnership interests_4056)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #725
+//Marital deduction property_4058
+<SET_725> = SET(Marital deduction property_4058
+<SET_726> = SET(Parent1)
+<SET_727> = SET(Parent2)
+
+IF NOT EMPTY(<SET_725) AND 
+IF NOT EMPTY(<SET_726>)  AND 
+IF NOT EMPTY(<SET_727>)
+THEN
+	TRANSFORM(Marital deduction property_4058, {Parent1, Parent2, Marital deduction property_4058})
+	INSERT(<RESULTS>, Marital deduction property_4058)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Marital deduction property_4058)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #730
+//Marital deduction_4057
+<SET_730> = SET(Marital deduction_4057
+<SET_731> = SET(Parent1)
+<SET_732> = SET(Parent2)
+
+IF NOT EMPTY(<SET_730) AND 
+IF NOT EMPTY(<SET_731>)  AND 
+IF NOT EMPTY(<SET_732>)
+THEN
+	TRANSFORM(Marital deduction_4057, {Parent1, Parent2, Marital deduction_4057})
+	INSERT(<RESULTS>, Marital deduction_4057)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Marital deduction_4057)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #735
+//Marital property settlements_4059
+<SET_735> = SET(Marital property settlements_4059
+<SET_736> = SET(Parent1)
+<SET_737> = SET(Parent2)
+
+IF NOT EMPTY(<SET_735) AND 
+IF NOT EMPTY(<SET_736>)  AND 
+IF NOT EMPTY(<SET_737>)
+THEN
+	TRANSFORM(Marital property settlements_4059, {Parent1, Parent2, Marital property settlements_4059})
+	INSERT(<RESULTS>, Marital property settlements_4059)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Marital property settlements_4059)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #740
+//Marketability (estate)_4060
+<SET_740> = SET(Marketability (estate)_4060
+<SET_741> = SET(Parent1)
+<SET_742> = SET(Parent2)
+
+IF NOT EMPTY(<SET_740) AND 
+IF NOT EMPTY(<SET_741>)  AND 
+IF NOT EMPTY(<SET_742>)
+THEN
+	TRANSFORM(Marketability (estate)_4060, {Parent1, Parent2, Marketability (estate)_4060})
+	INSERT(<RESULTS>, Marketability (estate)_4060)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Marketability (estate)_4060)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #745
+//Material participation (estate)_4061
+<SET_745> = SET(Material participation (estate)_4061
+<SET_746> = SET(Parent1)
+<SET_747> = SET(Parent2)
+
+IF NOT EMPTY(<SET_745) AND 
+IF NOT EMPTY(<SET_746>)  AND 
+IF NOT EMPTY(<SET_747>)
+THEN
+	TRANSFORM(Material participation (estate)_4061, {Parent1, Parent2, Material participation (estate)_4061})
+	INSERT(<RESULTS>, Material participation (estate)_4061)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Material participation (estate)_4061)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #750
+//Medical expenses_4062
+<SET_750> = SET(Medical expenses_4062
+<SET_751> = SET(Parent1)
+<SET_752> = SET(Parent2)
+
+IF NOT EMPTY(<SET_750) AND 
+IF NOT EMPTY(<SET_751>)  AND 
+IF NOT EMPTY(<SET_752>)
+THEN
+	TRANSFORM(Medical expenses_4062, {Parent1, Parent2, Medical expenses_4062})
+	INSERT(<RESULTS>, Medical expenses_4062)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Medical expenses_4062)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #755
+//Miscellaneous itemized deductions of trusts and estates_4064
+<SET_755> = SET(Miscellaneous itemized deductions of trusts and estates_4064
+<SET_756> = SET(Parent1)
+<SET_757> = SET(Parent2)
+
+IF NOT EMPTY(<SET_755) AND 
+IF NOT EMPTY(<SET_756>)  AND 
+IF NOT EMPTY(<SET_757>)
+THEN
+	TRANSFORM(Miscellaneous itemized deductions of trusts and estates_4064, {Parent1, Parent2, Miscellaneous itemized deductions of trusts and estates_4064})
+	INSERT(<RESULTS>, Miscellaneous itemized deductions of trusts and estates_4064)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Miscellaneous itemized deductions of trusts and estates_4064)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #760
+//Modern portfolio theory_4065
+<SET_760> = SET(Modern portfolio theory_4065
+<SET_761> = SET(Parent1)
+<SET_762> = SET(Parent2)
+
+IF NOT EMPTY(<SET_760) AND 
+IF NOT EMPTY(<SET_761>)  AND 
+IF NOT EMPTY(<SET_762>)
+THEN
+	TRANSFORM(Modern portfolio theory_4065, {Parent1, Parent2, Modern portfolio theory_4065})
+	INSERT(<RESULTS>, Modern portfolio theory_4065)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Modern portfolio theory_4065)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #765
+//Mortgage pools_4066
+<SET_765> = SET(Mortgage pools_4066
+<SET_766> = SET(Parent1)
+<SET_767> = SET(Parent2)
+
+IF NOT EMPTY(<SET_765) AND 
+IF NOT EMPTY(<SET_766>)  AND 
+IF NOT EMPTY(<SET_767>)
+THEN
+	TRANSFORM(Mortgage pools_4066, {Parent1, Parent2, Mortgage pools_4066})
+	INSERT(<RESULTS>, Mortgage pools_4066)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Mortgage pools_4066)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #770
+//Multiple skips_4067
+<SET_770> = SET(Multiple skips_4067
+<SET_771> = SET(Parent1)
+<SET_772> = SET(Parent2)
+
+IF NOT EMPTY(<SET_770) AND 
+IF NOT EMPTY(<SET_771>)  AND 
+IF NOT EMPTY(<SET_772>)
+THEN
+	TRANSFORM(Multiple skips_4067, {Parent1, Parent2, Multiple skips_4067})
+	INSERT(<RESULTS>, Multiple skips_4067)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Multiple skips_4067)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #775
+//Multiple trusts_4068
+<SET_775> = SET(Multiple trusts_4068
+<SET_776> = SET(Parent1)
+<SET_777> = SET(Parent2)
+
+IF NOT EMPTY(<SET_775) AND 
+IF NOT EMPTY(<SET_776>)  AND 
+IF NOT EMPTY(<SET_777>)
+THEN
+	TRANSFORM(Multiple trusts_4068, {Parent1, Parent2, Multiple trusts_4068})
+	INSERT(<RESULTS>, Multiple trusts_4068)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Multiple trusts_4068)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #780
+//Noncitizen spouse donor_4070
+<SET_780> = SET(Noncitizen spouse donor_4070
+<SET_781> = SET(Parent1)
+<SET_782> = SET(Parent2)
+
+IF NOT EMPTY(<SET_780) AND 
+IF NOT EMPTY(<SET_781>)  AND 
+IF NOT EMPTY(<SET_782>)
+THEN
+	TRANSFORM(Noncitizen spouse donor_4070, {Parent1, Parent2, Noncitizen spouse donor_4070})
+	INSERT(<RESULTS>, Noncitizen spouse donor_4070)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Noncitizen spouse donor_4070)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #785
+//Nondeductible distributions from trusts and estates_4071
+<SET_785> = SET(Nondeductible distributions from trusts and estates_4071
+<SET_786> = SET(Parent1)
+<SET_787> = SET(Parent2)
+
+IF NOT EMPTY(<SET_785) AND 
+IF NOT EMPTY(<SET_786>)  AND 
+IF NOT EMPTY(<SET_787>)
+THEN
+	TRANSFORM(Nondeductible distributions from trusts and estates_4071, {Parent1, Parent2, Nondeductible distributions from trusts and estates_4071})
+	INSERT(<RESULTS>, Nondeductible distributions from trusts and estates_4071)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Nondeductible distributions from trusts and estates_4071)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #790
+//Non-grantor trusts_4072
+<SET_790> = SET(Non-grantor trusts_4072
+<SET_791> = SET(Parent1)
+<SET_792> = SET(Parent2)
+
+IF NOT EMPTY(<SET_790) AND 
+IF NOT EMPTY(<SET_791>)  AND 
+IF NOT EMPTY(<SET_792>)
+THEN
+	TRANSFORM(Non-grantor trusts_4072, {Parent1, Parent2, Non-grantor trusts_4072})
+	INSERT(<RESULTS>, Non-grantor trusts_4072)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Non-grantor trusts_4072)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #795
+//Nonresident/noncitizen decedents in U.S. possessions_4190
+<SET_795> = SET(Nonresident/noncitizen decedents in U.S. possessions_4190
+<SET_796> = SET(Parent1)
+<SET_797> = SET(Parent2)
+
+IF NOT EMPTY(<SET_795) AND 
+IF NOT EMPTY(<SET_796>)  AND 
+IF NOT EMPTY(<SET_797>)
+THEN
+	TRANSFORM(Nonresident/noncitizen decedents in U.S. possessions_4190, {Parent1, Parent2, Nonresident/noncitizen decedents in U.S. possessions_4190})
+	INSERT(<RESULTS>, Nonresident/noncitizen decedents in U.S. possessions_4190)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Nonresident/noncitizen decedents in U.S. possessions_4190)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #800
+//Nonresident/noncitizen donors in U.S. possessions_4208
+<SET_800> = SET(Nonresident/noncitizen donors in U.S. possessions_4208
+<SET_801> = SET(Parent1)
+<SET_802> = SET(Parent2)
+
+IF NOT EMPTY(<SET_800) AND 
+IF NOT EMPTY(<SET_801>)  AND 
+IF NOT EMPTY(<SET_802>)
+THEN
+	TRANSFORM(Nonresident/noncitizen donors in U.S. possessions_4208, {Parent1, Parent2, Nonresident/noncitizen donors in U.S. possessions_4208})
+	INSERT(<RESULTS>, Nonresident/noncitizen donors in U.S. possessions_4208)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Nonresident/noncitizen donors in U.S. possessions_4208)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #805
+//Nonresident/noncitizen gross estate_4206
+<SET_805> = SET(Nonresident/noncitizen gross estate_4206
+<SET_806> = SET(Parent1)
+<SET_807> = SET(Parent2)
+
+IF NOT EMPTY(<SET_805) AND 
+IF NOT EMPTY(<SET_806>)  AND 
+IF NOT EMPTY(<SET_807>)
+THEN
+	TRANSFORM(Nonresident/noncitizen gross estate_4206, {Parent1, Parent2, Nonresident/noncitizen gross estate_4206})
+	INSERT(<RESULTS>, Nonresident/noncitizen gross estate_4206)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Nonresident/noncitizen gross estate_4206)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #810
+//Nonresidents_4075
+<SET_810> = SET(Nonresidents_4075
+<SET_811> = SET(Parent1)
+<SET_812> = SET(Parent2)
+
+IF NOT EMPTY(<SET_810) AND 
+IF NOT EMPTY(<SET_811>)  AND 
+IF NOT EMPTY(<SET_812>)
+THEN
+	TRANSFORM(Nonresidents_4075, {Parent1, Parent2, Nonresidents_4075})
+	INSERT(<RESULTS>, Nonresidents_4075)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Nonresidents_4075)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #815
+//Nonskip person_4078
+<SET_815> = SET(Nonskip person_4078
+<SET_816> = SET(Parent1)
+<SET_817> = SET(Parent2)
+
+IF NOT EMPTY(<SET_815) AND 
+IF NOT EMPTY(<SET_816>)  AND 
+IF NOT EMPTY(<SET_817>)
+THEN
+	TRANSFORM(Nonskip person_4078, {Parent1, Parent2, Nonskip person_4078})
+	INSERT(<RESULTS>, Nonskip person_4078)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Nonskip person_4078)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #820
+//Notice of fiduciary relationship_4079
+<SET_820> = SET(Notice of fiduciary relationship_4079
+<SET_821> = SET(Parent1)
+<SET_822> = SET(Parent2)
+
+IF NOT EMPTY(<SET_820) AND 
+IF NOT EMPTY(<SET_821>)  AND 
+IF NOT EMPTY(<SET_822>)
+THEN
+	TRANSFORM(Notice of fiduciary relationship_4079, {Parent1, Parent2, Notice of fiduciary relationship_4079})
+	INSERT(<RESULTS>, Notice of fiduciary relationship_4079)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Notice of fiduciary relationship_4079)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #825
+//Ownership of  life insurance_4081
+<SET_825> = SET(Ownership of  life insurance_4081
+<SET_826> = SET(Parent1)
+<SET_827> = SET(Parent2)
+
+IF NOT EMPTY(<SET_825) AND 
+IF NOT EMPTY(<SET_826>)  AND 
+IF NOT EMPTY(<SET_827>)
+THEN
+	TRANSFORM(Ownership of  life insurance_4081, {Parent1, Parent2, Ownership of  life insurance_4081})
+	INSERT(<RESULTS>, Ownership of  life insurance_4081)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Ownership of  life insurance_4081)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #830
+//Partial ownership of trusts_4083
+<SET_830> = SET(Partial ownership of trusts_4083
+<SET_831> = SET(Parent1)
+<SET_832> = SET(Parent2)
+
+IF NOT EMPTY(<SET_830) AND 
+IF NOT EMPTY(<SET_831>)  AND 
+IF NOT EMPTY(<SET_832>)
+THEN
+	TRANSFORM(Partial ownership of trusts_4083, {Parent1, Parent2, Partial ownership of trusts_4083})
+	INSERT(<RESULTS>, Partial ownership of trusts_4083)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Partial ownership of trusts_4083)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #835
+//Partnership interests in gross estate_4084
+<SET_835> = SET(Partnership interests in gross estate_4084
+<SET_836> = SET(Parent1)
+<SET_837> = SET(Parent2)
+
+IF NOT EMPTY(<SET_835) AND 
+IF NOT EMPTY(<SET_836>)  AND 
+IF NOT EMPTY(<SET_837>)
+THEN
+	TRANSFORM(Partnership interests in gross estate_4084, {Parent1, Parent2, Partnership interests in gross estate_4084})
+	INSERT(<RESULTS>, Partnership interests in gross estate_4084)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Partnership interests in gross estate_4084)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #840
+//Passive activity losses (PALs) of trusts and estates_4085
+<SET_840> = SET(Passive activity losses (PALs) of trusts and estates_4085
+<SET_841> = SET(Parent1)
+<SET_842> = SET(Parent2)
+
+IF NOT EMPTY(<SET_840) AND 
+IF NOT EMPTY(<SET_841>)  AND 
+IF NOT EMPTY(<SET_842>)
+THEN
+	TRANSFORM(Passive activity losses (PALs) of trusts and estates_4085, {Parent1, Parent2, Passive activity losses (PALs) of trusts and estates_4085})
+	INSERT(<RESULTS>, Passive activity losses (PALs) of trusts and estates_4085)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Passive activity losses (PALs) of trusts and estates_4085)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #845
+//Payment under will or trust_4086
+<SET_845> = SET(Payment under will or trust_4086
+<SET_846> = SET(Parent1)
+<SET_847> = SET(Parent2)
+
+IF NOT EMPTY(<SET_845) AND 
+IF NOT EMPTY(<SET_846>)  AND 
+IF NOT EMPTY(<SET_847>)
+THEN
+	TRANSFORM(Payment under will or trust_4086, {Parent1, Parent2, Payment under will or trust_4086})
+	INSERT(<RESULTS>, Payment under will or trust_4086)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Payment under will or trust_4086)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #850
+//Permanent  life insurance_4087
+<SET_850> = SET(Permanent  life insurance_4087
+<SET_851> = SET(Parent1)
+<SET_852> = SET(Parent2)
+
+IF NOT EMPTY(<SET_850) AND 
+IF NOT EMPTY(<SET_851>)  AND 
+IF NOT EMPTY(<SET_852>)
+THEN
+	TRANSFORM(Permanent  life insurance_4087, {Parent1, Parent2, Permanent  life insurance_4087})
+	INSERT(<RESULTS>, Permanent  life insurance_4087)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Permanent  life insurance_4087)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #855
+//Personal exemption for trusts and estates_4088
+<SET_855> = SET(Personal exemption for trusts and estates_4088
+<SET_856> = SET(Parent1)
+<SET_857> = SET(Parent2)
+
+IF NOT EMPTY(<SET_855) AND 
+IF NOT EMPTY(<SET_856>)  AND 
+IF NOT EMPTY(<SET_857>)
+THEN
+	TRANSFORM(Personal exemption for trusts and estates_4088, {Parent1, Parent2, Personal exemption for trusts and estates_4088})
+	INSERT(<RESULTS>, Personal exemption for trusts and estates_4088)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Personal exemption for trusts and estates_4088)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #860
+//Personal property in an estate_4089
+<SET_860> = SET(Personal property in an estate_4089
+<SET_861> = SET(Parent1)
+<SET_862> = SET(Parent2)
+
+IF NOT EMPTY(<SET_860) AND 
+IF NOT EMPTY(<SET_861>)  AND 
+IF NOT EMPTY(<SET_862>)
+THEN
+	TRANSFORM(Personal property in an estate_4089, {Parent1, Parent2, Personal property in an estate_4089})
+	INSERT(<RESULTS>, Personal property in an estate_4089)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Personal property in an estate_4089)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #865
+//Planning
+<SET_865> = SET(Planning
+<SET_866> = SET(Parent1)
+<SET_867> = SET(Parent2)
+
+IF NOT EMPTY(<SET_865) AND 
+IF NOT EMPTY(<SET_866>)  AND 
+IF NOT EMPTY(<SET_867>)
+THEN
+	TRANSFORM(Planning, {Parent1, Parent2, Planning})
+	INSERT(<RESULTS>, Planning)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Planning)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #870
+//Pooled income funds_4092
+<SET_870> = SET(Pooled income funds_4092
+<SET_871> = SET(Parent1)
+<SET_872> = SET(Parent2)
+
+IF NOT EMPTY(<SET_870) AND 
+IF NOT EMPTY(<SET_871>)  AND 
+IF NOT EMPTY(<SET_872>)
+THEN
+	TRANSFORM(Pooled income funds_4092, {Parent1, Parent2, Pooled income funds_4092})
+	INSERT(<RESULTS>, Pooled income funds_4092)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Pooled income funds_4092)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #875
+//Power to revoke_4093
+<SET_875> = SET(Power to revoke_4093
+<SET_876> = SET(Parent1)
+<SET_877> = SET(Parent2)
+
+IF NOT EMPTY(<SET_875) AND 
+IF NOT EMPTY(<SET_876>)  AND 
+IF NOT EMPTY(<SET_877>)
+THEN
+	TRANSFORM(Power to revoke_4093, {Parent1, Parent2, Power to revoke_4093})
+	INSERT(<RESULTS>, Power to revoke_4093)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Power to revoke_4093)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #880
+//Pre-1977 gift tax_4095
+<SET_880> = SET(Pre-1977 gift tax_4095
+<SET_881> = SET(Parent1)
+<SET_882> = SET(Parent2)
+
+IF NOT EMPTY(<SET_880) AND 
+IF NOT EMPTY(<SET_881>)  AND 
+IF NOT EMPTY(<SET_882>)
+THEN
+	TRANSFORM(Pre-1977 gift tax_4095, {Parent1, Parent2, Pre-1977 gift tax_4095})
+	INSERT(<RESULTS>, Pre-1977 gift tax_4095)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Pre-1977 gift tax_4095)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #885
+//Prior gifts_4098
+<SET_885> = SET(Prior gifts_4098
+<SET_886> = SET(Parent1)
+<SET_887> = SET(Parent2)
+
+IF NOT EMPTY(<SET_885) AND 
+IF NOT EMPTY(<SET_886>)  AND 
+IF NOT EMPTY(<SET_887>)
+THEN
+	TRANSFORM(Prior gifts_4098, {Parent1, Parent2, Prior gifts_4098})
+	INSERT(<RESULTS>, Prior gifts_4098)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Prior gifts_4098)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #890
+//Prior transfers, estate tax paid_4099
+<SET_890> = SET(Prior transfers, estate tax paid_4099
+<SET_891> = SET(Parent1)
+<SET_892> = SET(Parent2)
+
+IF NOT EMPTY(<SET_890) AND 
+IF NOT EMPTY(<SET_891>)  AND 
+IF NOT EMPTY(<SET_892>)
+THEN
+	TRANSFORM(Prior transfers, estate tax paid_4099, {Parent1, Parent2, Prior transfers, estate tax paid_4099})
+	INSERT(<RESULTS>, Prior transfers, estate tax paid_4099)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Prior transfers, estate tax paid_4099)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #895
+//Property ownership_4102
+<SET_895> = SET(Property ownership_4102
+<SET_896> = SET(Parent1)
+<SET_897> = SET(Parent2)
+
+IF NOT EMPTY(<SET_895) AND 
+IF NOT EMPTY(<SET_896>)  AND 
+IF NOT EMPTY(<SET_897>)
+THEN
+	TRANSFORM(Property ownership_4102, {Parent1, Parent2, Property ownership_4102})
+	INSERT(<RESULTS>, Property ownership_4102)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Property ownership_4102)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #900
+//Property subject to powers of appointment_4103
+<SET_900> = SET(Property subject to powers of appointment_4103
+<SET_901> = SET(Parent1)
+<SET_902> = SET(Parent2)
+
+IF NOT EMPTY(<SET_900) AND 
+IF NOT EMPTY(<SET_901>)  AND 
+IF NOT EMPTY(<SET_902>)
+THEN
+	TRANSFORM(Property subject to powers of appointment_4103, {Parent1, Parent2, Property subject to powers of appointment_4103})
+	INSERT(<RESULTS>, Property subject to powers of appointment_4103)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Property subject to powers of appointment_4103)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #905
+//Prudent person standard_4104
+<SET_905> = SET(Prudent person standard_4104
+<SET_906> = SET(Parent1)
+<SET_907> = SET(Parent2)
+
+IF NOT EMPTY(<SET_905) AND 
+IF NOT EMPTY(<SET_906>)  AND 
+IF NOT EMPTY(<SET_907>)
+THEN
+	TRANSFORM(Prudent person standard_4104, {Parent1, Parent2, Prudent person standard_4104})
+	INSERT(<RESULTS>, Prudent person standard_4104)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Prudent person standard_4104)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #910
+//Qualified disability trust_4105
+<SET_910> = SET(Qualified disability trust_4105
+<SET_911> = SET(Parent1)
+<SET_912> = SET(Parent2)
+
+IF NOT EMPTY(<SET_910) AND 
+IF NOT EMPTY(<SET_911>)  AND 
+IF NOT EMPTY(<SET_912>)
+THEN
+	TRANSFORM(Qualified disability trust_4105, {Parent1, Parent2, Qualified disability trust_4105})
+	INSERT(<RESULTS>, Qualified disability trust_4105)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Qualified disability trust_4105)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #915
+//Qualified domestic trusts (QDOTs)_4108
+<SET_915> = SET(Qualified domestic trusts (QDOTs)_4108
+<SET_916> = SET(Parent1)
+<SET_917> = SET(Parent2)
+
+IF NOT EMPTY(<SET_915) AND 
+IF NOT EMPTY(<SET_916>)  AND 
+IF NOT EMPTY(<SET_917>)
+THEN
+	TRANSFORM(Qualified domestic trusts (QDOTs)_4108, {Parent1, Parent2, Qualified domestic trusts (QDOTs)_4108})
+	INSERT(<RESULTS>, Qualified domestic trusts (QDOTs)_4108)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Qualified domestic trusts (QDOTs)_4108)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #920
+//Qualified family-owned business interest (QFOBI)_4109
+<SET_920> = SET(Qualified family-owned business interest (QFOBI)_4109
+<SET_921> = SET(Parent1)
+<SET_922> = SET(Parent2)
+
+IF NOT EMPTY(<SET_920) AND 
+IF NOT EMPTY(<SET_921>)  AND 
+IF NOT EMPTY(<SET_922>)
+THEN
+	TRANSFORM(Qualified family-owned business interest (QFOBI)_4109, {Parent1, Parent2, Qualified family-owned business interest (QFOBI)_4109})
+	INSERT(<RESULTS>, Qualified family-owned business interest (QFOBI)_4109)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Qualified family-owned business interest (QFOBI)_4109)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #925
+//Qualified personal residence trusts (QPRTs)_4112
+<SET_925> = SET(Qualified personal residence trusts (QPRTs)_4112
+<SET_926> = SET(Parent1)
+<SET_927> = SET(Parent2)
+
+IF NOT EMPTY(<SET_925) AND 
+IF NOT EMPTY(<SET_926>)  AND 
+IF NOT EMPTY(<SET_927>)
+THEN
+	TRANSFORM(Qualified personal residence trusts (QPRTs)_4112, {Parent1, Parent2, Qualified personal residence trusts (QPRTs)_4112})
+	INSERT(<RESULTS>, Qualified personal residence trusts (QPRTs)_4112)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Qualified personal residence trusts (QPRTs)_4112)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #930
+//Qualified revocable trust (QRT)_4113
+<SET_930> = SET(Qualified revocable trust (QRT)_4113
+<SET_931> = SET(Parent1)
+<SET_932> = SET(Parent2)
+
+IF NOT EMPTY(<SET_930) AND 
+IF NOT EMPTY(<SET_931>)  AND 
+IF NOT EMPTY(<SET_932>)
+THEN
+	TRANSFORM(Qualified revocable trust (QRT)_4113, {Parent1, Parent2, Qualified revocable trust (QRT)_4113})
+	INSERT(<RESULTS>, Qualified revocable trust (QRT)_4113)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Qualified revocable trust (QRT)_4113)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #935
+//Qualified terminable interest property (QTIP)_4114
+<SET_935> = SET(Qualified terminable interest property (QTIP)_4114
+<SET_936> = SET(Parent1)
+<SET_937> = SET(Parent2)
+
+IF NOT EMPTY(<SET_935) AND 
+IF NOT EMPTY(<SET_936>)  AND 
+IF NOT EMPTY(<SET_937>)
+THEN
+	TRANSFORM(Qualified terminable interest property (QTIP)_4114, {Parent1, Parent2, Qualified terminable interest property (QTIP)_4114})
+	INSERT(<RESULTS>, Qualified terminable interest property (QTIP)_4114)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Qualified terminable interest property (QTIP)_4114)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #940
+//Rate schedule_4115
+<SET_940> = SET(Rate schedule_4115
+<SET_941> = SET(Parent1)
+<SET_942> = SET(Parent2)
+
+IF NOT EMPTY(<SET_940) AND 
+IF NOT EMPTY(<SET_941>)  AND 
+IF NOT EMPTY(<SET_942>)
+THEN
+	TRANSFORM(Rate schedule_4115, {Parent1, Parent2, Rate schedule_4115})
+	INSERT(<RESULTS>, Rate schedule_4115)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Rate schedule_4115)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #945
+//Real estate in an estate_4116
+<SET_945> = SET(Real estate in an estate_4116
+<SET_946> = SET(Parent1)
+<SET_947> = SET(Parent2)
+
+IF NOT EMPTY(<SET_945) AND 
+IF NOT EMPTY(<SET_946>)  AND 
+IF NOT EMPTY(<SET_947>)
+THEN
+	TRANSFORM(Real estate in an estate_4116, {Parent1, Parent2, Real estate in an estate_4116})
+	INSERT(<RESULTS>, Real estate in an estate_4116)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Real estate in an estate_4116)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #950
+//Real estate trusts_4117
+<SET_950> = SET(Real estate trusts_4117
+<SET_951> = SET(Parent1)
+<SET_952> = SET(Parent2)
+
+IF NOT EMPTY(<SET_950) AND 
+IF NOT EMPTY(<SET_951>)  AND 
+IF NOT EMPTY(<SET_952>)
+THEN
+	TRANSFORM(Real estate trusts_4117, {Parent1, Parent2, Real estate trusts_4117})
+	INSERT(<RESULTS>, Real estate trusts_4117)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Real estate trusts_4117)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #955
+//Real property of trusts and estates_4118
+<SET_955> = SET(Real property of trusts and estates_4118
+<SET_956> = SET(Parent1)
+<SET_957> = SET(Parent2)
+
+IF NOT EMPTY(<SET_955) AND 
+IF NOT EMPTY(<SET_956>)  AND 
+IF NOT EMPTY(<SET_957>)
+THEN
+	TRANSFORM(Real property of trusts and estates_4118, {Parent1, Parent2, Real property of trusts and estates_4118})
+	INSERT(<RESULTS>, Real property of trusts and estates_4118)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Real property of trusts and estates_4118)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #960
+//Recognition of gain_4123
+<SET_960> = SET(Recognition of gain_4123
+<SET_961> = SET(Parent1)
+<SET_962> = SET(Parent2)
+
+IF NOT EMPTY(<SET_960) AND 
+IF NOT EMPTY(<SET_961>)  AND 
+IF NOT EMPTY(<SET_962>)
+THEN
+	TRANSFORM(Recognition of gain_4123, {Parent1, Parent2, Recognition of gain_4123})
+	INSERT(<RESULTS>, Recognition of gain_4123)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Recognition of gain_4123)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #965
+//Recognition_4122
+<SET_965> = SET(Recognition_4122
+<SET_966> = SET(Parent1)
+<SET_967> = SET(Parent2)
+
+IF NOT EMPTY(<SET_965) AND 
+IF NOT EMPTY(<SET_966>)  AND 
+IF NOT EMPTY(<SET_967>)
+THEN
+	TRANSFORM(Recognition_4122, {Parent1, Parent2, Recognition_4122})
+	INSERT(<RESULTS>, Recognition_4122)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Recognition_4122)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #970
+//Reformation_4124
+<SET_970> = SET(Reformation_4124
+<SET_971> = SET(Parent1)
+<SET_972> = SET(Parent2)
+
+IF NOT EMPTY(<SET_970) AND 
+IF NOT EMPTY(<SET_971>)  AND 
+IF NOT EMPTY(<SET_972>)
+THEN
+	TRANSFORM(Reformation_4124, {Parent1, Parent2, Reformation_4124})
+	INSERT(<RESULTS>, Reformation_4124)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Reformation_4124)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #975
+//Remainders, death taxes paid_4128
+<SET_975> = SET(Remainders, death taxes paid_4128
+<SET_976> = SET(Parent1)
+<SET_977> = SET(Parent2)
+
+IF NOT EMPTY(<SET_975) AND 
+IF NOT EMPTY(<SET_976>)  AND 
+IF NOT EMPTY(<SET_977>)
+THEN
+	TRANSFORM(Remainders, death taxes paid_4128, {Parent1, Parent2, Remainders, death taxes paid_4128})
+	INSERT(<RESULTS>, Remainders, death taxes paid_4128)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Remainders, death taxes paid_4128)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #980
+//Rents and royalties (estates)_4129
+<SET_980> = SET(Rents and royalties (estates)_4129
+<SET_981> = SET(Parent1)
+<SET_982> = SET(Parent2)
+
+IF NOT EMPTY(<SET_980) AND 
+IF NOT EMPTY(<SET_981>)  AND 
+IF NOT EMPTY(<SET_982>)
+THEN
+	TRANSFORM(Rents and royalties (estates)_4129, {Parent1, Parent2, Rents and royalties (estates)_4129})
+	INSERT(<RESULTS>, Rents and royalties (estates)_4129)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Rents and royalties (estates)_4129)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #985
+//Retained interests by decedent_4131
+<SET_985> = SET(Retained interests by decedent_4131
+<SET_986> = SET(Parent1)
+<SET_987> = SET(Parent2)
+
+IF NOT EMPTY(<SET_985) AND 
+IF NOT EMPTY(<SET_986>)  AND 
+IF NOT EMPTY(<SET_987>)
+THEN
+	TRANSFORM(Retained interests by decedent_4131, {Parent1, Parent2, Retained interests by decedent_4131})
+	INSERT(<RESULTS>, Retained interests by decedent_4131)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Retained interests by decedent_4131)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #990
+//Retained interests in gifts_4132
+<SET_990> = SET(Retained interests in gifts_4132
+<SET_991> = SET(Parent1)
+<SET_992> = SET(Parent2)
+
+IF NOT EMPTY(<SET_990) AND 
+IF NOT EMPTY(<SET_991>)  AND 
+IF NOT EMPTY(<SET_992>)
+THEN
+	TRANSFORM(Retained interests in gifts_4132, {Parent1, Parent2, Retained interests in gifts_4132})
+	INSERT(<RESULTS>, Retained interests in gifts_4132)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Retained interests in gifts_4132)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #995
+//Reverse QTIP election_4135
+<SET_995> = SET(Reverse QTIP election_4135
+<SET_996> = SET(Parent1)
+<SET_997> = SET(Parent2)
+
+IF NOT EMPTY(<SET_995) AND 
+IF NOT EMPTY(<SET_996>)  AND 
+IF NOT EMPTY(<SET_997>)
+THEN
+	TRANSFORM(Reverse QTIP election_4135, {Parent1, Parent2, Reverse QTIP election_4135})
+	INSERT(<RESULTS>, Reverse QTIP election_4135)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Reverse QTIP election_4135)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1000
+//Reversionary interests by decedent_4137
+<SET_1000> = SET(Reversionary interests by decedent_4137
+<SET_1001> = SET(Parent1)
+<SET_1002> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1000) AND 
+IF NOT EMPTY(<SET_1001>)  AND 
+IF NOT EMPTY(<SET_1002>)
+THEN
+	TRANSFORM(Reversionary interests by decedent_4137, {Parent1, Parent2, Reversionary interests by decedent_4137})
+	INSERT(<RESULTS>, Reversionary interests by decedent_4137)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Reversionary interests by decedent_4137)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1005
+//Reversionary interests_4136
+<SET_1005> = SET(Reversionary interests_4136
+<SET_1006> = SET(Parent1)
+<SET_1007> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1005) AND 
+IF NOT EMPTY(<SET_1006>)  AND 
+IF NOT EMPTY(<SET_1007>)
+THEN
+	TRANSFORM(Reversionary interests_4136, {Parent1, Parent2, Reversionary interests_4136})
+	INSERT(<RESULTS>, Reversionary interests_4136)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Reversionary interests_4136)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1010
+//Revocable transfers of an estate_4139
+<SET_1010> = SET(Revocable transfers of an estate_4139
+<SET_1011> = SET(Parent1)
+<SET_1012> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1010) AND 
+IF NOT EMPTY(<SET_1011>)  AND 
+IF NOT EMPTY(<SET_1012>)
+THEN
+	TRANSFORM(Revocable transfers of an estate_4139, {Parent1, Parent2, Revocable transfers of an estate_4139})
+	INSERT(<RESULTS>, Revocable transfers of an estate_4139)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Revocable transfers of an estate_4139)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1015
+//Revocable trusts_4140
+<SET_1015> = SET(Revocable trusts_4140
+<SET_1016> = SET(Parent1)
+<SET_1017> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1015) AND 
+IF NOT EMPTY(<SET_1016>)  AND 
+IF NOT EMPTY(<SET_1017>)
+THEN
+	TRANSFORM(Revocable trusts_4140, {Parent1, Parent2, Revocable trusts_4140})
+	INSERT(<RESULTS>, Revocable trusts_4140)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Revocable trusts_4140)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1020
+//S corporation interests in trusts and estates_4141
+<SET_1020> = SET(S corporation interests in trusts and estates_4141
+<SET_1021> = SET(Parent1)
+<SET_1022> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1020) AND 
+IF NOT EMPTY(<SET_1021>)  AND 
+IF NOT EMPTY(<SET_1022>)
+THEN
+	TRANSFORM(S corporation interests in trusts and estates_4141, {Parent1, Parent2, S corporation interests in trusts and estates_4141})
+	INSERT(<RESULTS>, S corporation interests in trusts and estates_4141)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, S corporation interests in trusts and estates_4141)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1025
+//S corporation stock (estates)_4142
+<SET_1025> = SET(S corporation stock (estates)_4142
+<SET_1026> = SET(Parent1)
+<SET_1027> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1025) AND 
+IF NOT EMPTY(<SET_1026>)  AND 
+IF NOT EMPTY(<SET_1027>)
+THEN
+	TRANSFORM(S corporation stock (estates)_4142, {Parent1, Parent2, S corporation stock (estates)_4142})
+	INSERT(<RESULTS>, S corporation stock (estates)_4142)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, S corporation stock (estates)_4142)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1030
+//Schedule K-1 (Form 1041)_4143
+<SET_1030> = SET(Schedule K-1 (Form 1041)_4143
+<SET_1031> = SET(Parent1)
+<SET_1032> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1030) AND 
+IF NOT EMPTY(<SET_1031>)  AND 
+IF NOT EMPTY(<SET_1032>)
+THEN
+	TRANSFORM(Schedule K-1 (Form 1041)_4143, {Parent1, Parent2, Schedule K-1 (Form 1041)_4143})
+	INSERT(<RESULTS>, Schedule K-1 (Form 1041)_4143)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Schedule K-1 (Form 1041)_4143)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1035
+//Separate shares rule_4144
+<SET_1035> = SET(Separate shares rule_4144
+<SET_1036> = SET(Parent1)
+<SET_1037> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1035) AND 
+IF NOT EMPTY(<SET_1036>)  AND 
+IF NOT EMPTY(<SET_1037>)
+THEN
+	TRANSFORM(Separate shares rule_4144, {Parent1, Parent2, Separate shares rule_4144})
+	INSERT(<RESULTS>, Separate shares rule_4144)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Separate shares rule_4144)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1040
+//Simple trust distribution deduction_4145
+<SET_1040> = SET(Simple trust distribution deduction_4145
+<SET_1041> = SET(Parent1)
+<SET_1042> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1040) AND 
+IF NOT EMPTY(<SET_1041>)  AND 
+IF NOT EMPTY(<SET_1042>)
+THEN
+	TRANSFORM(Simple trust distribution deduction_4145, {Parent1, Parent2, Simple trust distribution deduction_4145})
+	INSERT(<RESULTS>, Simple trust distribution deduction_4145)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Simple trust distribution deduction_4145)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1045
+//Simple trust tax year_4146
+<SET_1045> = SET(Simple trust tax year_4146
+<SET_1046> = SET(Parent1)
+<SET_1047> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1045) AND 
+IF NOT EMPTY(<SET_1046>)  AND 
+IF NOT EMPTY(<SET_1047>)
+THEN
+	TRANSFORM(Simple trust tax year_4146, {Parent1, Parent2, Simple trust tax year_4146})
+	INSERT(<RESULTS>, Simple trust tax year_4146)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Simple trust tax year_4146)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1050
+//Simple trusts deduction allocation_4148
+<SET_1050> = SET(Simple trusts deduction allocation_4148
+<SET_1051> = SET(Parent1)
+<SET_1052> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1050) AND 
+IF NOT EMPTY(<SET_1051>)  AND 
+IF NOT EMPTY(<SET_1052>)
+THEN
+	TRANSFORM(Simple trusts deduction allocation_4148, {Parent1, Parent2, Simple trusts deduction allocation_4148})
+	INSERT(<RESULTS>, Simple trusts deduction allocation_4148)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Simple trusts deduction allocation_4148)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1055
+//Skip person_4149
+<SET_1055> = SET(Skip person_4149
+<SET_1056> = SET(Parent1)
+<SET_1057> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1055) AND 
+IF NOT EMPTY(<SET_1056>)  AND 
+IF NOT EMPTY(<SET_1057>)
+THEN
+	TRANSFORM(Skip person_4149, {Parent1, Parent2, Skip person_4149})
+	INSERT(<RESULTS>, Skip person_4149)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Skip person_4149)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1060
+//Specific bequests_4156
+<SET_1060> = SET(Specific bequests_4156
+<SET_1061> = SET(Parent1)
+<SET_1062> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1060) AND 
+IF NOT EMPTY(<SET_1061>)  AND 
+IF NOT EMPTY(<SET_1062>)
+THEN
+	TRANSFORM(Specific bequests_4156, {Parent1, Parent2, Specific bequests_4156})
+	INSERT(<RESULTS>, Specific bequests_4156)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Specific bequests_4156)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1065
+//State death tax credit (pre-2005)_4158
+<SET_1065> = SET(State death tax credit (pre-2005)_4158
+<SET_1066> = SET(Parent1)
+<SET_1067> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1065) AND 
+IF NOT EMPTY(<SET_1066>)  AND 
+IF NOT EMPTY(<SET_1067>)
+THEN
+	TRANSFORM(State death tax credit (pre-2005)_4158, {Parent1, Parent2, State death tax credit (pre-2005)_4158})
+	INSERT(<RESULTS>, State death tax credit (pre-2005)_4158)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, State death tax credit (pre-2005)_4158)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1070
+//State death tax deduction (post-2004)_4159
+<SET_1070> = SET(State death tax deduction (post-2004)_4159
+<SET_1071> = SET(Parent1)
+<SET_1072> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1070) AND 
+IF NOT EMPTY(<SET_1071>)  AND 
+IF NOT EMPTY(<SET_1072>)
+THEN
+	TRANSFORM(State death tax deduction (post-2004)_4159, {Parent1, Parent2, State death tax deduction (post-2004)_4159})
+	INSERT(<RESULTS>, State death tax deduction (post-2004)_4159)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, State death tax deduction (post-2004)_4159)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1075
+//State law considerations_4160
+<SET_1075> = SET(State law considerations_4160
+<SET_1076> = SET(Parent1)
+<SET_1077> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1075) AND 
+IF NOT EMPTY(<SET_1076>)  AND 
+IF NOT EMPTY(<SET_1077>)
+THEN
+	TRANSFORM(State law considerations_4160, {Parent1, Parent2, State law considerations_4160})
+	INSERT(<RESULTS>, State law considerations_4160)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, State law considerations_4160)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1080
+//State or foreign death tax credits, refund of_4161
+<SET_1080> = SET(State or foreign death tax credits, refund of_4161
+<SET_1081> = SET(Parent1)
+<SET_1082> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1080) AND 
+IF NOT EMPTY(<SET_1081>)  AND 
+IF NOT EMPTY(<SET_1082>)
+THEN
+	TRANSFORM(State or foreign death tax credits, refund of_4161, {Parent1, Parent2, State or foreign death tax credits, refund of_4161})
+	INSERT(<RESULTS>, State or foreign death tax credits, refund of_4161)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, State or foreign death tax credits, refund of_4161)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1085
+//Stocks and bonds in an estate_4162
+<SET_1085> = SET(Stocks and bonds in an estate_4162
+<SET_1086> = SET(Parent1)
+<SET_1087> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1085) AND 
+IF NOT EMPTY(<SET_1086>)  AND 
+IF NOT EMPTY(<SET_1087>)
+THEN
+	TRANSFORM(Stocks and bonds in an estate_4162, {Parent1, Parent2, Stocks and bonds in an estate_4162})
+	INSERT(<RESULTS>, Stocks and bonds in an estate_4162)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Stocks and bonds in an estate_4162)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1090
+//Tax computation for  nonresident/noncitizen decedents_4163
+<SET_1090> = SET(Tax computation for  nonresident/noncitizen decedents_4163
+<SET_1091> = SET(Parent1)
+<SET_1092> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1090) AND 
+IF NOT EMPTY(<SET_1091>)  AND 
+IF NOT EMPTY(<SET_1092>)
+THEN
+	TRANSFORM(Tax computation for  nonresident/noncitizen decedents_4163, {Parent1, Parent2, Tax computation for  nonresident/noncitizen decedents_4163})
+	INSERT(<RESULTS>, Tax computation for  nonresident/noncitizen decedents_4163)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Tax computation for  nonresident/noncitizen decedents_4163)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1095
+//Tax computation for nonresident/noncitizen donors_4164
+<SET_1095> = SET(Tax computation for nonresident/noncitizen donors_4164
+<SET_1096> = SET(Parent1)
+<SET_1097> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1095) AND 
+IF NOT EMPTY(<SET_1096>)  AND 
+IF NOT EMPTY(<SET_1097>)
+THEN
+	TRANSFORM(Tax computation for nonresident/noncitizen donors_4164, {Parent1, Parent2, Tax computation for nonresident/noncitizen donors_4164})
+	INSERT(<RESULTS>, Tax computation for nonresident/noncitizen donors_4164)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Tax computation for nonresident/noncitizen donors_4164)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1100
+//Tax payment_4165
+<SET_1100> = SET(Tax payment_4165
+<SET_1101> = SET(Parent1)
+<SET_1102> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1100) AND 
+IF NOT EMPTY(<SET_1101>)  AND 
+IF NOT EMPTY(<SET_1102>)
+THEN
+	TRANSFORM(Tax payment_4165, {Parent1, Parent2, Tax payment_4165})
+	INSERT(<RESULTS>, Tax payment_4165)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Tax payment_4165)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1105
+//Tax rates for  trusts and estates_4166
+<SET_1105> = SET(Tax rates for  trusts and estates_4166
+<SET_1106> = SET(Parent1)
+<SET_1107> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1105) AND 
+IF NOT EMPTY(<SET_1106>)  AND 
+IF NOT EMPTY(<SET_1107>)
+THEN
+	TRANSFORM(Tax rates for  trusts and estates_4166, {Parent1, Parent2, Tax rates for  trusts and estates_4166})
+	INSERT(<RESULTS>, Tax rates for  trusts and estates_4166)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Tax rates for  trusts and estates_4166)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1110
+//Taxable estate defined_4172
+<SET_1110> = SET(Taxable estate defined_4172
+<SET_1111> = SET(Parent1)
+<SET_1112> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1110) AND 
+IF NOT EMPTY(<SET_1111>)  AND 
+IF NOT EMPTY(<SET_1112>)
+THEN
+	TRANSFORM(Taxable estate defined_4172, {Parent1, Parent2, Taxable estate defined_4172})
+	INSERT(<RESULTS>, Taxable estate defined_4172)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Taxable estate defined_4172)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1115
+//Taxation of direct gifts_4175
+<SET_1115> = SET(Taxation of direct gifts_4175
+<SET_1116> = SET(Parent1)
+<SET_1117> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1115) AND 
+IF NOT EMPTY(<SET_1116>)  AND 
+IF NOT EMPTY(<SET_1117>)
+THEN
+	TRANSFORM(Taxation of direct gifts_4175, {Parent1, Parent2, Taxation of direct gifts_4175})
+	INSERT(<RESULTS>, Taxation of direct gifts_4175)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Taxation of direct gifts_4175)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1120
+//Taxes for trusts and estates_4176
+<SET_1120> = SET(Taxes for trusts and estates_4176
+<SET_1121> = SET(Parent1)
+<SET_1122> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1120) AND 
+IF NOT EMPTY(<SET_1121>)  AND 
+IF NOT EMPTY(<SET_1122>)
+THEN
+	TRANSFORM(Taxes for trusts and estates_4176, {Parent1, Parent2, Taxes for trusts and estates_4176})
+	INSERT(<RESULTS>, Taxes for trusts and estates_4176)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Taxes for trusts and estates_4176)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1125
+//Termination distributions_4179
+<SET_1125> = SET(Termination distributions_4179
+<SET_1126> = SET(Parent1)
+<SET_1127> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1125) AND 
+IF NOT EMPTY(<SET_1126>)  AND 
+IF NOT EMPTY(<SET_1127>)
+THEN
+	TRANSFORM(Termination distributions_4179, {Parent1, Parent2, Termination distributions_4179})
+	INSERT(<RESULTS>, Termination distributions_4179)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Termination distributions_4179)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1130
+//Tier system_4181
+<SET_1130> = SET(Tier system_4181
+<SET_1131> = SET(Parent1)
+<SET_1132> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1130) AND 
+IF NOT EMPTY(<SET_1131>)  AND 
+IF NOT EMPTY(<SET_1132>)
+THEN
+	TRANSFORM(Tier system_4181, {Parent1, Parent2, Tier system_4181})
+	INSERT(<RESULTS>, Tier system_4181)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Tier system_4181)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1135
+//Transfers and additions_4182
+<SET_1135> = SET(Transfers and additions_4182
+<SET_1136> = SET(Parent1)
+<SET_1137> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1135) AND 
+IF NOT EMPTY(<SET_1136>)  AND 
+IF NOT EMPTY(<SET_1137>)
+THEN
+	TRANSFORM(Transfers and additions_4182, {Parent1, Parent2, Transfers and additions_4182})
+	INSERT(<RESULTS>, Transfers and additions_4182)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Transfers and additions_4182)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1140
+//Transfers within three years of death_4184
+<SET_1140> = SET(Transfers within three years of death_4184
+<SET_1141> = SET(Parent1)
+<SET_1142> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1140) AND 
+IF NOT EMPTY(<SET_1141>)  AND 
+IF NOT EMPTY(<SET_1142>)
+THEN
+	TRANSFORM(Transfers within three years of death_4184, {Parent1, Parent2, Transfers within three years of death_4184})
+	INSERT(<RESULTS>, Transfers within three years of death_4184)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Transfers within three years of death_4184)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1145
+//Trust accounting_4185
+<SET_1145> = SET(Trust accounting_4185
+<SET_1146> = SET(Parent1)
+<SET_1147> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1145) AND 
+IF NOT EMPTY(<SET_1146>)  AND 
+IF NOT EMPTY(<SET_1147>)
+THEN
+	TRANSFORM(Trust accounting_4185, {Parent1, Parent2, Trust accounting_4185})
+	INSERT(<RESULTS>, Trust accounting_4185)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Trust accounting_4185)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1150
+//Unified credit (applicable credit amount)_4191
+<SET_1150> = SET(Unified credit (applicable credit amount)_4191
+<SET_1151> = SET(Parent1)
+<SET_1152> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1150) AND 
+IF NOT EMPTY(<SET_1151>)  AND 
+IF NOT EMPTY(<SET_1152>)
+THEN
+	TRANSFORM(Unified credit (applicable credit amount)_4191, {Parent1, Parent2, Unified credit (applicable credit amount)_4191})
+	INSERT(<RESULTS>, Unified credit (applicable credit amount)_4191)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Unified credit (applicable credit amount)_4191)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1155
+//Uniform Prudent Investor Act_4193
+<SET_1155> = SET(Uniform Prudent Investor Act_4193
+<SET_1156> = SET(Parent1)
+<SET_1157> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1155) AND 
+IF NOT EMPTY(<SET_1156>)  AND 
+IF NOT EMPTY(<SET_1157>)
+THEN
+	TRANSFORM(Uniform Prudent Investor Act_4193, {Parent1, Parent2, Uniform Prudent Investor Act_4193})
+	INSERT(<RESULTS>, Uniform Prudent Investor Act_4193)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Uniform Prudent Investor Act_4193)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+
+BEGIN ACT #1160
+//Unrelated business income_4195
+<SET_1160> = SET(Unrelated business income_4195
+<SET_1161> = SET(Charitable deduction)
+<SET_1162> = SET(Trusts and Estates)
+
+IF NOT EMPTY(<SET_1160) AND 
+IF NOT EMPTY(<SET_1161>)  AND 
+IF NOT EMPTY(<SET_1162>)
+THEN
+	TRANSFORM(Unrelated business income_4195, {Charitable deduction), Trusts and Estates, Unrelated business income_4195})
+	INSERT(<RESULTS>, Unrelated business income_4195)
+	 ELSE REMOVE(<RESULTS>,{(Charitable deduction), Trusts and Estates, Unrelated business income_4195})
+ENDIF
+REMOVE(<RESULTS>, {Charitable deduction), Trusts and Estates})
+END ACT
+
+/*BEGIN ACT #1165
+//Valuation methods_4198
+<SET_1165> = SET(Valuation methods_4198
+<SET_1166> = SET(Parent1)
+<SET_1167> = SET(Parent2)
+
+IF NOT EMPTY(<SET_1165) AND 
+IF NOT EMPTY(<SET_1166>)  AND 
+IF NOT EMPTY(<SET_1167>)
+THEN
+	TRANSFORM(Valuation methods_4198, {Parent1, Parent2, Valuation methods_4198})
+	INSERT(<RESULTS>, Valuation methods_4198)
+	 ELSE REMOVE(<RESULTS>,{Parent1, Parent2, Valuation methods_4198)
+ENDIF
+REMOVE(<RESULTS>, {Parent1, Parent2})
+END ACT
+*/
+
+BEGIN ACT #1170
+//Valuation methods_4198
+<SET_1170> = SET(Valuation methods_4198
+
+IF NOT EMPTY(<SET_1170) 
+
+THEN
+	TRANSFORM(Valuation methods_4198, {Valuation methods_4198})
+	INSERT(<RESULTS>, Valuation methods_4198)
+	 ELSE REMOVE(<RESULTS>,{Valuation methods_4198})
+ENDIF
+REMOVE(<RESULTS>)
+END ACT
+
+BEGIN ACT #1175
+//Valuation statement_4199
+<SET_1175> = SET(Valuation statement_4199
+<SET_1176> = SET(Compliance)
+
+IF NOT EMPTY(<SET_1175) AND 
+IF NOT EMPTY(<SET_1176>) 
+THEN
+	TRANSFORM(Valuation statement_4199, {Compliance, Valuation statement_4199})
+	INSERT(<RESULTS>, Valuation statement_4199)
+	 ELSE REMOVE(<RESULTS>,{Compliance, Valuation statement_4199})
+ENDIF
+REMOVE(<RESULTS>, {Compliance})
+END ACT
+
+BEGIN ACT #1180
+//Variable tier annuities_4200
+<SET_1180> = SET(Variable tier annuities_4200
+<SET_1181> = SET(Types of trusts)
+<SET_1182> = SET(Trusts and Estates)
+
+IF NOT EMPTY(<SET_1180) AND 
+IF NOT EMPTY(<SET_1181>)  AND 
+IF NOT EMPTY(<SET_1182>)
+THEN
+	TRANSFORM(Variable tier annuities_4200, {Types of trusts, Trusts and Estates, Variable tier annuities_4200})
+	INSERT(<RESULTS>, Variable tier annuities_4200)
+	 ELSE REMOVE(<RESULTS>,{Types of trusts, Trusts and Estates, Variable tier annuities_4200})
+ENDIF
+REMOVE(<RESULTS>, {Types of trusts, Trusts and Estates})
+END ACT
+
+BEGIN ACT #1185
+//Viatical settlements of life insurance_4201
+<SET_1185> = SET(Viatical settlements of life insurance_4201
+<SET_1186> = SET(Life insurance)
+<SET_1187> = SET(Planning)
+
+IF NOT EMPTY(<SET_1185) AND 
+IF NOT EMPTY(<SET_1186>)  AND 
+IF NOT EMPTY(<SET_1187>)
+THEN
+	TRANSFORM(Viatical settlements of life insurance_4201, {Life insurance, Planning, Viatical settlements of life insurance_4201})
+	INSERT(<RESULTS>, Viatical settlements of life insurance_4201})
+	 ELSE REMOVE(<RESULTS>,{Life insurance, Planning, Viatical settlements of life insurance_4201})
+ENDIF
+REMOVE(<RESULTS>, {Life insurance, Planning})
+END ACT
+
+BEGIN ACT #1190
+//Where to file estate tax report_4203
+<SET_1190> = SET(Where to file estate tax report_4203
+<SET_1191> = SET(Reporting requirements)
+
+IF NOT EMPTY(<SET_1190) AND 
+IF NOT EMPTY(<SET_1191>)
+THEN
+	TRANSFORM(Where to file estate tax report_4203, {Reporting requirements, Where to file estate tax report_4203})
+	INSERT(<RESULTS>, Where to file estate tax report_4203)
+	 ELSE REMOVE(<RESULTS>,{Reporting requirements, Where to file estate tax report_4203})
+ENDIF
+REMOVE(<RESULTS>, {Reporting requirements})
+END ACT
+
+BEGIN ACT #1195
+//Wills_4205
+<SET_1195> = SET(Wills_4205
+<SET_1196> = SET(Techniques and devices)
+<SET_1197> = SET(Planning)
+
+IF NOT EMPTY(<SET_1195) AND 
+IF NOT EMPTY(<SET_1196>)  AND 
+IF NOT EMPTY(<SET_1197>)
+THEN
+	TRANSFORM(Wills_4205, {Techniques and devices, Planning, Wills_4205})
+	INSERT(<RESULTS>, Wills_4205)
+	 ELSE REMOVE(<RESULTS>,{Techniques and devices, Planning, Wills_4205})
+ENDIF
+REMOVE(<RESULTS>, {Techniques and devices, Planning})
+END ACT
+*/
+
+BEGIN ACT #998
+	<RESULTS> = FILTER (<RESULTS>, {30%,30%,40%})
+END ACT
+
+BEGIN ACT #999
+<WINNERS> = <RESULTS>
+END ACT
